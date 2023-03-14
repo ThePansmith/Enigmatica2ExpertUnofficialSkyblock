@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Enigmatica 2 Expert Unoffical",
+  "name": "Enigmatica 2 Expert Skyblock Unoffical",
   "version": "1.86",
   "author": "nillermeddild pansmith",
   "files": [
@@ -22,11 +22,6 @@
     {
       "projectID": 224535,
       "fileID": 2443253,
-      "required": true
-    },
-    {
-      "projectID": 274807,
-      "fileID": 3048077,
       "required": true
     },
     {
@@ -930,11 +925,6 @@
       "required": true
     },
     {
-      "projectID": 261199,
-      "fileID": 2814991,
-      "required": true
-    },
-    {
       "projectID": 228815,
       "fileID": 2699055,
       "required": true
@@ -1237,6 +1227,11 @@
 	{
       "projectID": 271992,
       "fileID": 2707173,
+      "required": true
+    },
+	{
+      "projectID": 251301,
+      "fileID": 2659489,
       "required": true
     },
     {

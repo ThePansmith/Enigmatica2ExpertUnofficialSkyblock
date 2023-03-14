@@ -73,19 +73,6 @@ recipes.remove(<extrabitmanipulation:diamond_nugget>);
 	<guideapi:bloodmagic-guide>, 
 	[<minecraft:book>,<bloodmagic:soul_snare>]);
 	
-# Animania Random Animal Spawn Egg
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:meat> * 500);
-	
-	mods.forestry.Carpenter.addRecipe(<animania:entity_egg_random>, 
-	[[null , <cyclicmagic:sprout_seed>, null],
-	[<ore:egg>,<ore:egg>,<ore:egg>],
-	[null, <cyclicmagic:sprout_seed>, null]], 
-	40, <liquid:liquiddna> * 250);
-
 # OpenBlocks Glider
 	recipes.remove(<openblocks:generic>);
 	recipes.remove(<openblocks:hang_glider>);
@@ -102,11 +89,7 @@ recipes.remove(<extrabitmanipulation:diamond_nugget>);
 	[<openblocks:generic>, <forestry:oak_stick>, <openblocks:generic>], 
 	[null, null, null]]);
 	
-# Mud conversion
-	recipes.remove(<animania:block_mud>);
-	recipes.addShapeless("BoP Mud", <biomesoplenty:mud>, [<animania:block_mud>]);
-	recipes.addShapeless("Animania Mud", <animania:block_mud>, [<biomesoplenty:mud>]);
-	
+
 # Silicon conversion
 	recipes.addShapeless(<enderio:item_material:5> * 2, [<libvulpes:productingot:3>, <libvulpes:productingot:3>]);
 	recipes.addShapeless(<libvulpes:productingot:3>, [<enderio:item_material:5>]);
