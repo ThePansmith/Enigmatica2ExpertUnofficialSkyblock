@@ -154,9 +154,6 @@ for item in pressurePlates {
 # Circuit Board
 	<ore:circuitBoard>.add(<immersiveengineering:material:27>);
 
-# Modularium
-	<ore:ingotModularium>.add(<modularmachinery:itemmodularium>);
-
 # Amber Oredict
 	<ore:blockAmber>.add(<biomesoplenty:gem_block:7>);
 	<ore:blockAmber>.add(<thaumcraft:amber_block>);
@@ -668,18 +665,6 @@ for item in pressurePlates {
 	recipes.addShapeless("trapdoororedict1", <minecraft:trapdoor>, [Trapdoor]);
 	recipes.addShapeless("bedoredict1", <minecraft:bed>, [<ore:bed>]);
 	recipes.addShapeless("wooddoororedict1", <minecraft:wooden_door>, [Door]);
-
-	
-# Animania peacock feathers
-<ore:peacockFeathers>.add([
-    <animania:blue_peacock_feather>,
-    <animania:white_peacock_feather>,
-    <animania:charcoal_peacock_feather>,
-    <animania:opal_peacock_feather>,
-    <animania:peach_peacock_feather>,
-    <animania:purple_peacock_feather>,
-    <animania:taupe_peacock_feather>
-]);
 
 # Rearrange items in Dye Oredict to better integration
 # with AA [Lens Of Color]
