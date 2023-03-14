@@ -42,10 +42,7 @@ for item in pressurePlates {
 	
 # Fixing the Mineralis Ritual
 	<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
-	
-	<ore:oreSapphire>.remove(<iceandfire:sapphire_ore>);
-	
-	<ore:oreSilver>.remove(<iceandfire:silver_ore:0>);
+
 	
 	<ore:oreTin>.remove(<forestry:resources:2>);
 	<ore:oreTin>.remove(<ic2:resource:3>);
@@ -237,8 +234,6 @@ for item in pressurePlates {
 	
 # Dragon hearts
 	<ore:heartDragon>.add(<draconicevolution:dragon_heart>);
-	<ore:heartDragon>.add(<iceandfire:fire_dragon_heart>);
-	<ore:heartDragon>.add(<iceandfire:ice_dragon_heart>);
 	
 # Crafting hammers
 	<ore:craftingToolForgeHammer>.add(<immersiveengineering:tool>);
@@ -323,7 +318,6 @@ for item in pressurePlates {
 
 # Silver blocks
 	rh(<ic2:resource:15>);
-	rh(<iceandfire:silver_block>);
 
 # Lead blocks
 	rh(<ic2:resource:7>);

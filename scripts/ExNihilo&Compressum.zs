@@ -38,6 +38,15 @@ import mods.jei.JEI.removeAndHide as rh;
 # End Stone -> Crushed End Stone
 	mods.thermalexpansion.Pulverizer.addRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:end_stone>, 2000);
 
+# End Cake
+	recipes.remove(<exnihilocreatio:block_end_cake>);
+	recipes.addShaped("End Cake", 
+	<exnihilocreatio:block_end_cake>, 
+	[[<ore:foodCake>, <actuallyadditions:block_misc:8>, <ore:foodCake>],
+	[<actuallyadditions:block_misc:8>, <minecraft:end_crystal>, <actuallyadditions:block_misc:8>], 
+	[<ore:foodCake>, <actuallyadditions:block_misc:8>, <ore:foodCake>]]);
+	
+	
 # Sieve
 	recipes.remove(<exnihilocreatio:block_sieve>);
 	recipes.addShaped("Ex Nihilo Sieve",

@@ -53,5 +53,5 @@ recipes.addShaped("ender_bucket2",
 recipes.remove(<randomthings:igniter>);
 recipes.addShaped("Random Things Igniter", <randomthings:igniter>, [
 [<ore:gearSteel>, <ore:gearSteel>, <ore:netherrack>],
-[<minecraft:dispenser>, <iceandfire:fire_dragon_blood>, <ore:netherrack>],
+[<minecraft:dispenser>, <enderio:item_cold_fire_igniter>, <ore:netherrack>],
 [<ore:gearSteel>, <ore:gearSteel>, <ore:netherrack>]]);

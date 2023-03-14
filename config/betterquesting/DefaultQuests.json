@@ -1123,8 +1123,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "ForgeCaps:10": {
-                "Parent:9": {},
-                "astralsorcery:cap_item_amulet_holder:10": {}
+                "Parent:9": {}
               },
               "OreDict:8": "",
               "id:8": "botania:flowerbag"
@@ -44645,7 +44644,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Thaumcraft chapter.\n\nSome types of Vis Crystal can be found under ground.",
+          "desc:8": "Completing this quest opens the Thaumcraft chapter.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
