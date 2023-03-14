@@ -1088,7 +1088,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Botania chapter.",
+          "desc:8": "Completing this quest opens the Botania chapter.\n\nTip: Use Floral Fertilizer on grass to get flowers.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
