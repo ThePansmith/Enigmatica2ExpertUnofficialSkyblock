@@ -1381,7 +1381,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Since you don\u0027t have access to Iron yet, you\u0027ll have to make a §3§4Clay Bucket§0 to get lava.",
+          "desc:8": "Since you don\u0027t have access to Iron yet, you\u0027ll have to make a §3§4Clay Bucket§0 §rfor lava.\n\nIf you prefer to not have to deal with lava for now, you can use the melter instead.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1417,36 +1417,20 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 100,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
+              "Damage:2": 101,
               "OreDict:8": "",
-              "id:8": "bq_standard:loot_chest"
+              "id:8": "bq_standard:loot_chest",
+              "tag:10": {
+                "hideLootInfo:1": 1
+              }
             }
           }
         }
       },
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "claybucket:unfiredclaybucket"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
@@ -3716,7 +3700,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Vanilla Pickaxes don\u0027t work, your first Pickaxe needs to be a Tinkers\u0027 Construct Pickaxe. You can make it in the part builder, out of flint, paper, cactus, wood or stone.\n\nThe harvest levels of ores are custom made. These quests will show you the materials needed to reach the next level.",
+          "desc:8": "With cobblestone now ready, you can upgrade your tools.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3731,7 +3715,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "Harvest level 0",
+          "name:8": "Cobblestone",
           "partySingleReward:8": "false",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
@@ -3792,8 +3776,8 @@
             "0:10": {
               "Count:3": 2,
               "Damage:2": 0,
-              "OreDict:8": "itemFlint",
-              "id:8": "minecraft:flint"
+              "OreDict:8": "",
+              "id:8": "minecraft:cobblestone"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3876,9 +3860,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "oreCopper",
-              "id:8": "thermalfoundation:ore"
+              "Damage:2": 128,
+              "OreDict:8": "",
+              "id:8": "thermalfoundation:material"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4046,8 +4030,8 @@
             "0:10": {
               "Count:3": 2,
               "Damage:2": 0,
-              "OreDict:8": "oreIron",
-              "id:8": "minecraft:iron_ore"
+              "OreDict:8": "",
+              "id:8": "minecraft:iron_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4200,9 +4184,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "Damage:2": 3,
-              "OreDict:8": "oreLead",
-              "id:8": "thermalfoundation:ore"
+              "Damage:2": 131,
+              "OreDict:8": "",
+              "id:8": "thermalfoundation:material"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4294,9 +4278,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "oreOsmium",
-              "id:8": "mekanism:oreblock"
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "mekanism:ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4472,10 +4456,10 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "oreCobalt",
-              "id:8": "tconstruct:ore"
+              "OreDict:8": "",
+              "id:8": "tconstruct:ingots"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4489,10 +4473,10 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 1,
-              "OreDict:8": "oreArdite",
-              "id:8": "tconstruct:ore"
+              "OreDict:8": "",
+              "id:8": "tconstruct:ingots"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4727,12 +4711,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 167,
               "OreDict:8": "",
-              "id:8": "tconstruct:sharpening_kit",
-              "tag:10": {
-                "Material:8": "enderium_plustic"
-              }
+              "id:8": "thermalfoundation:material"
             }
           },
           "taskID:8": "bq_standard:retrieval"
