@@ -11433,7 +11433,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Luminous Crafting Table is used to craft various things in Astral Sorcery.\nThe recipe can be found in the Astral Tome. \nCraft it in a Crafting Table, near one of the Floating Crystals found below some Astral Sorcery structures.\n\nAs a side note, if you wish to automate the Astral Sorecery table, check out the \"Automating Astral Sorcery\" quest in the the AE2 chapter.",
+          "desc:8": "The Luminous Crafting Table is used to craft various things in Astral Sorcery.\nThe recipe can be found in the Astral Tome. \nCraft it in a Crafting Table, near one of the Floating Crystals found below some Astral Sorcery structures.\n\nAs a side note, if you wish to automate the Astral Sorcery table, check out the \"Automating Astral Sorcery\" quest in the the AE2 chapter.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
