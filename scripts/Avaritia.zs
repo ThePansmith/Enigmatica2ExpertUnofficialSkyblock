@@ -87,7 +87,7 @@ import mods.jei.JEI.removeAndHide as rh;
 	<ore:dragonEgg>, <extendedcrafting:storage:7>, <ore:blockAethium>, 
 	<ore:plateElite>, <ore:blockTitaniumAluminide>, <ore:blockTitaniumIridium>, 
 	<ore:blockEvilMetal>, <ore:blockDemonicMetal>, <ore:blockMirion>, 
-	<biomesoplenty:terrestrial_artifact>, <extendedcrafting:singularity>, <extendedcrafting:singularity:1>, 
+	<contenttweaker:terrestrial_artifact>, <extendedcrafting:singularity>, <extendedcrafting:singularity:1>, 
 	<extendedcrafting:singularity:2>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:4>, <extendedcrafting:singularity:5>, 
 	<extendedcrafting:singularity:6>, <extendedcrafting:singularity:7>, <extendedcrafting:singularity:16>, 
 	<extendedcrafting:singularity:17>, <extendedcrafting:singularity:18>, <extendedcrafting:singularity:19>,

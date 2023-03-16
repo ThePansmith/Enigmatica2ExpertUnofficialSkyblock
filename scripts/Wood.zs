@@ -41,26 +41,6 @@ val twilight as IItemStack[IIngredient] = {
   <twilightforest:magic_log:3>    : <twilightforest:sort_planks>,
 };
 
-# Biomes O' plenty, made by Trilexcom
-val bop as IItemStack[IIngredient] = {
-  <biomesoplenty:log_0:4> : <biomesoplenty:planks_0>,
-  <biomesoplenty:log_0:5> : <biomesoplenty:planks_0:1>,
-  <biomesoplenty:log_0:6> : <biomesoplenty:planks_0:2>,
-  <biomesoplenty:log_0:7> : <biomesoplenty:planks_0:3>,
-  <biomesoplenty:log_1:4> : <biomesoplenty:planks_0:4>,
-  <biomesoplenty:log_1:5> : <biomesoplenty:planks_0:5>,
-  <biomesoplenty:log_1:6> : <biomesoplenty:planks_0:6>,
-  <biomesoplenty:log_2:4> : <biomesoplenty:planks_0:8>,
-  <biomesoplenty:log_2:5> : <biomesoplenty:planks_0:9>,
-  <biomesoplenty:log_2:6> : <biomesoplenty:planks_0:10>,
-  <biomesoplenty:log_2:7> : <biomesoplenty:planks_0:11>,
-  <biomesoplenty:log_3:4> : <biomesoplenty:planks_0:12>,
-  <biomesoplenty:log_3:5> : <biomesoplenty:planks_0:13>,
-  <biomesoplenty:log_3:6> : <biomesoplenty:planks_0:14>,
-  <biomesoplenty:log_3:7> : <biomesoplenty:planks_0:15>,
-  <biomesoplenty:log_1:7> : <biomesoplenty:planks_0:7>,
-};
-
 # Forestry, made by Trilexcom
 val forestry as IItemStack[IIngredient] = {
   <forestry:logs.0>   : <forestry:planks.0>,
@@ -105,7 +85,6 @@ val pam as IItemStack[IIngredient] = {
 for log, plank in vanilla   { saw(log, plank, "strict: manufactory mekSawmill"); }
 for log, plank in twilight  { saw(log, plank, "strict: manufactory mekSawmill"); }
 for log, plank in pam       { saw(log, plank, "strict: manufactory mekSawmill"); }
-for log, plank in bop       { saw(log, plank, "strict: manufactory mekSawmill"); }
 for log, plank in forestry  { saw(log, plank, "no exceptions"); }
 
 

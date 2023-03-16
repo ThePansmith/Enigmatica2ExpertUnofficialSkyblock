@@ -46,12 +46,6 @@ recipes.remove(<extrabitmanipulation:diamond_nugget>);
 	<immersiveengineering:metal:5> * 9, 
 	[<ore:blockUranium>]);
 	
-# Amber Conversion
-	recipes.addShapeless("BoP Amber", 
-	<biomesoplenty:gem:7>, [<thaumcraft:amber>]);
-	recipes.addShapeless("Thaumcraft Amber", 
-	<thaumcraft:amber>, [<biomesoplenty:gem:7>]);
-
 # End Crystal
 	recipes.remove(<minecraft:end_crystal>);
 	recipes.addShaped("End Crystal", 

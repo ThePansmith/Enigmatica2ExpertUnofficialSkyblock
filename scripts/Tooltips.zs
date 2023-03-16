@@ -24,22 +24,6 @@ var ultimateTierInstaller = "Only works on Bins, Energy Cubes, Tanks and Gas Tan
 <mekanism:tierinstaller:3>.addTooltip(ultimateTierInstaller);
 addDescription(<mekanism:tierinstaller:3>, ultimateTierInstaller);
 
-var biomesOPlentyOres as IItemStack[] = [
-	<biomesoplenty:gem_ore:1>,
-	<biomesoplenty:gem_ore:2>,
-	<biomesoplenty:gem_ore:3>,
-	<biomesoplenty:gem_ore:4>,
-	<biomesoplenty:gem_ore:5>,
-	<biomesoplenty:gem_ore:6>,
-	<biomesoplenty:gem_ore:7>
-];
-
-for ore in biomesOPlentyOres {
-	var tooltip = "Does not generate naturally. Use the Sieve to obtain Biomes O' Plenty Gems directly.";
-	ore.addTooltip(tooltip);
-	addDescription(ore, tooltip);
-}
-
 var metalRods as IItemStack[] = [
 	<immersiveengineering:material:1>,
 	<immersiveengineering:material:3>,
@@ -229,7 +213,6 @@ for item in thaumcraftHintItems {
 	<libvulpes:productingot:7>.addTooltip(format.red("(Obtainable through the Advanced Metallurgic Fabricator)"));
 
 # Mystical Agriculture Seeds Tier 5 -> 6
-	<mysticalagriculture:ender_amethyst_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	<mysticalagriculture:enderium_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	<mysticalagriculture:iridium_seeds>.addTooltip("Tier: " + format.darkPurple("6"));
 	<mysticalagriculture:terrasteel_seeds>.addTooltip("Tier: " + format.darkPurple("6"));

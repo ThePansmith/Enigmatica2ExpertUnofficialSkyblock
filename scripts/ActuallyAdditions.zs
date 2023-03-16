@@ -153,15 +153,15 @@ import mods.actuallyadditions.BallOfFur.addReturn as addBallReturn;
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
 
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <tconstruct:ingots>, <ic2:plate:13>, <biomesoplenty:gem:6>, <tconstruct:slime_congealed:1>, 25000, 100, [0.0, 0.0, 1.0]);
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <tconstruct:ingots>, <ic2:plate:13>, <biomesoplenty:gem:6>, <tconstruct:slime_congealed:1>, 250000, 200, [0.0, 0.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <tconstruct:ingots>, <ic2:plate:13>, <contenttweaker:sapphire>, <tconstruct:slime_congealed:1>, 25000, 100, [0.0, 0.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <tconstruct:ingots>, <ic2:plate:13>, <contenttweaker:sapphire>, <tconstruct:slime_congealed:1>, 250000, 200, [0.0, 0.0, 1.0]);
 
 # Diamantine
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:2>);
 	
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <nuclearcraft:dust:10>, <botania:manaresource:2>, <tconstruct:ingots:2>, <biomesoplenty:gem:5>, 50000, 200, [0.0, 1.0, 1.0]);
-	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <nuclearcraft:dust:10>, <botania:manaresource:2>, <tconstruct:ingots:2>, <biomesoplenty:gem:5>, 500000, 400, [0.0, 1.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <nuclearcraft:dust:10>, <botania:manaresource:2>, <tconstruct:ingots:2>, <contenttweaker:malachite>, 50000, 200, [0.0, 1.0, 1.0]);
+	mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <nuclearcraft:dust:10>, <botania:manaresource:2>, <tconstruct:ingots:2>, <contenttweaker:malachite>, 500000, 400, [0.0, 1.0, 1.0]);
 
 # Void
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
@@ -191,13 +191,6 @@ for item in <ore:stoneBasalt>.items {
 	#OutputStack, InputStack, (Optional)Output2Stack, (Optional)Output2Chance
 	#mods.actuallyadditions.Crusher.addRecipe(<minecraft:iron_ore>, <minecraft:iron_ingot>, <minecraft:stone>, 50);
 	
-	#BoP Gems -> Dyes
-	mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:9> * 2, <biomesoplenty:gem_block:1>, <minecraft:dye:9> * 2, 50);
-	mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:2> * 2, <biomesoplenty:gem_block:2>, <minecraft:dye:2> * 2, 50);
-	mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:14> * 2, <biomesoplenty:gem_block:3>, <minecraft:dye:14> * 2, 50);
-	mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:10> * 2, <biomesoplenty:gem_block:5>, <minecraft:dye:10> * 2, 50);
-	mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:12> * 2, <biomesoplenty:gem_block:6>, <minecraft:dye:6> * 2, 50);
-	
 	# Certus Quartz compatibility
 	mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:1> * 2, <appliedenergistics2:charged_quartz_ore>);
 	mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material:1>);
@@ -212,19 +205,9 @@ var weight = 100+2+1+80+60+10+40+60+30+70+40+40+10+6+30+2+20+10+3+40+50+30+4+20;
 # List of items to balls of fur
 # mod:name | meta | weight
 var listCatFur as string[] = [
-"animania:blue_peacock_feather"       ,"0"   , "50" , # Blue Peacock Feather
-"animania:charcoal_peacock_feather"   ,"0"   , "50" , # Charcoal Peacock Feather
-"animania:opal_peacock_feather"       ,"0"   , "50" , # Opal Peacock Feather
-"animania:peach_peacock_feather"      ,"0"   , "50" , # Peach Peacock Feather
-"animania:purple_peacock_feather"     ,"0"   , "50" , # Purple Peacock Feather
-"animania:taupe_peacock_feather"      ,"0"   , "50" , # Taupe Peacock Feather
-"animania:white_peacock_feather"      ,"0"   , "50" , # White Peacock Feather
-"animania:wool"                       ,"3"   , "55" , # Wool (Jacob)
 "appliedenergistics2:material"        ,"3"   , "30" , # Nether Quartz Dust
 "appliedenergistics2:material"        ,"45"  , "40" , # Sky Stone Dust
 "astralsorcery:itemusabledust"        ,"0"   , "25" , # Illumination Powder
-"biomesoplenty:gem"                   ,"1"   , "30" , # Ruby
-"biomesoplenty:plant_0"               ,"1"   , "30" , # Medium Grass
 "botania:manaresource"                ,"12"  , "1"  , # Red String
 "botania:manaresource"                ,"16"  , "5"  , # Mana Infused String
 "enderio:item_power_conduit"          ,"2"   , "40" , # Ender Energy Conduit

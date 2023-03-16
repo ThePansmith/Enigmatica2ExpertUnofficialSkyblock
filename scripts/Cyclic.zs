@@ -190,7 +190,6 @@ val packagerList = [
   [<minecraft:concrete_powder:15> * 8], [sa, gr, <ore:dyeBlack>.firstItem],
   
   [<environmentalmaterials:alabaster> * 16], [<minecraft:cobblestone> * 4, <minecraft:dye:15>                   * 5],
-  [<environmentalmaterials:alabaster> * 16], [<minecraft:cobblestone> * 4, <biomesoplenty:white_dye>            * 5],
   [<environmentalmaterials:alabaster> * 16], [<minecraft:cobblestone> * 4, <thermalfoundation:dye:15>           * 5],
   [<environmentalmaterials:alabaster> * 16], [<minecraft:cobblestone> * 4, <botania:dye>                        * 5],
   [<environmentalmaterials:alabaster> * 16], [<minecraft:cobblestone> * 4, <industrialforegoing:artificial_dye> * 5],
@@ -245,7 +244,6 @@ Hydrator.addRecipe(<chisel:waterstone>, [<minecraft:stone>], 125);
 # Misc
 Hydrator.addRecipe(<actuallyadditions:item_misc:12>, [<actuallyadditions:item_misc:9>], 250);
 Hydrator.addRecipe(<minecraft:ice>, [<thermalfoundation:material:1025>], 1000);
-Hydrator.addRecipe(<biomesoplenty:mud>, [<minecraft:dirt>], 1000);
 
 # Remove terracotta hydrating
 for i in 0 .. 16 {

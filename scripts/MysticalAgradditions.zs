@@ -66,23 +66,7 @@ import mods.jei.JEI.removeAndHide as rh;
 			<ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, 
 			<ore:blockNetherStar>],
 			"astralsorcery.constellation.aevitas");
-			
-# Ender_Amethyst_Seeds
-	recipes.remove(<mysticalagriculture:ender_amethyst_seeds>);
-	mods.astralsorcery.Altar.addTraitAltarRecipe("enigmatica2expert:shaped/internal/altar/ender_amethyst_seeds",
-		<mysticalagriculture:ender_amethyst_seeds>, 3500, 600, [
-            <ore:essenceTier5>, <ore:blockInsaniumEssence>, <ore:essenceTier5>,
-            <ore:blockInsaniumEssence>, <mysticalagradditions:insanium:1>, <ore:blockInsaniumEssence>,
-            <ore:essenceTier5>, <ore:blockInsaniumEssence>, <ore:essenceTier5>,
-            <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>,
-            <biomesoplenty:gem_block>, <biomesoplenty:gem_block>,
-            <astralsorcery:itemcoloredlens:2>, <astralsorcery:itemcoloredlens:2>,
-            <ore:ingotCrystaltine>, <ore:ingotCrystaltine>,
-            <biomesoplenty:gem_block>, <biomesoplenty:gem_block>,
-			<ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, <ore:ingotInsanium>, 
-			<minecraft:nether_star>],
-			"astralsorcery.constellation.aevitas");
-			
+					
 # Iridium Seeds
 	recipes.remove(<mysticalagriculture:iridium_seeds>);
 		mods.astralsorcery.Altar.addTraitAltarRecipe("enigmatica2expert:shaped/internal/altar/iridium_seeds",

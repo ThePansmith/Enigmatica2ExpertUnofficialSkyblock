@@ -7,10 +7,10 @@ mods.nuclearcraft.melter.removeRecipeWithInput(<ore:dustObsidian>);
 mods.nuclearcraft.melter.addRecipe(<ore:obsidian>, <liquid:obsidian> * 144);
 
 # Rhodochrosite
-	mods.actuallyadditions.AtomicReconstructor.addRecipe(<nuclearcraft:gem>, <biomesoplenty:gem:1>, 15000);
+	mods.actuallyadditions.AtomicReconstructor.addRecipe(<nuclearcraft:gem>, <contenttweaker:ruby>, 15000);
 
 # Fluorite
-	mods.actuallyadditions.AtomicReconstructor.addRecipe(<nuclearcraft:gem:2>, <biomesoplenty:gem:2>, 15000);
+	mods.actuallyadditions.AtomicReconstructor.addRecipe(<nuclearcraft:gem:2>, <contenttweaker:peridot>, 15000);
 
 # Rock Crusher
 	recipes.remove(<nuclearcraft:rock_crusher_idle>);

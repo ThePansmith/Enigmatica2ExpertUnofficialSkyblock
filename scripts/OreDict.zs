@@ -101,22 +101,6 @@ for item in pressurePlates {
 		<minecraft:jungle_boat>,
 		<minecraft:acacia_boat>,
 		<minecraft:dark_oak_boat>,
-		<biomesoplenty:boat_sacred_oak>,
-		<biomesoplenty:boat_cherry>,
-		<biomesoplenty:boat_umbran>,
-		<biomesoplenty:boat_fir>,
-		<biomesoplenty:boat_ethereal>,
-		<biomesoplenty:boat_magic>,
-		<biomesoplenty:boat_mangrove>,
-		<biomesoplenty:boat_palm>,
-		<biomesoplenty:boat_redwood>,
-		<biomesoplenty:boat_willow>,
-		<biomesoplenty:boat_pine>,
-		<biomesoplenty:boat_hellbark>,
-		<biomesoplenty:boat_jacaranda>,
-		<biomesoplenty:boat_mahogany>,
-		<biomesoplenty:boat_ebony>,
-		<biomesoplenty:boat_eucalyptus>,
 		<immersivepetroleum:speedboat>,
 		<immersivepetroleum:upgrades>,
 		<ic2:boat:3>
@@ -125,18 +109,6 @@ for item in pressurePlates {
 	for boat in boats {
 		<ore:boat>.add(boat);
 	}
-
-# Mycelium Oredict
-	<ore:mycelium>.add(<biomesoplenty:grass:8>);
-
-# Biomesoplenty Dirt
-	<ore:dirt>.add([
-		<biomesoplenty:dirt:8>,
-		<biomesoplenty:dirt:9>,
-		<biomesoplenty:dirt:1>,
-		<biomesoplenty:dirt:10>,
-		<biomesoplenty:dirt:2>
-	]);
 
 # Enhanced Ender Ingot
 	<ore:ingotEnderEnhanced>.add(<extendedcrafting:material:48>);
@@ -155,7 +127,6 @@ for item in pressurePlates {
 	<ore:circuitBoard>.add(<immersiveengineering:material:27>);
 
 # Amber Oredict
-	<ore:blockAmber>.add(<biomesoplenty:gem_block:7>);
 	<ore:blockAmber>.add(<thaumcraft:amber_block>);
 	<ore:blockAmber>.add(<thaumcraft:amber_brick>);
 
@@ -382,22 +353,6 @@ for item in pressurePlates {
 		<rustic:painted_wood_cyan:0>, 
 		<rustic:planks>, 
 		<rustic:planks:1>,
-		<biomesoplenty:planks_0>, 
-		<biomesoplenty:planks_0:1>, 
-		<biomesoplenty:planks_0:2>, 
-		<biomesoplenty:planks_0:3>, 
-		<biomesoplenty:planks_0:4>, 
-		<biomesoplenty:planks_0:5>, 
-		<biomesoplenty:planks_0:6>, 
-		<biomesoplenty:planks_0:7>, 
-		<biomesoplenty:planks_0:8>, 
-		<biomesoplenty:planks_0:9>, 
-		<biomesoplenty:planks_0:10>, 
-		<biomesoplenty:planks_0:11>, 
-		<biomesoplenty:planks_0:12>, 
-		<biomesoplenty:planks_0:13>, 
-		<biomesoplenty:planks_0:14>, 
-		<biomesoplenty:planks_0:15>, 
 		<chisel:planks-acacia>, 
 		<chisel:planks-acacia:1>, 
 		<chisel:planks-acacia:2>, 
@@ -606,22 +561,6 @@ for item in pressurePlates {
 
 	var DoorToAdd = [
 		<minecraft:wooden_door>,
-		<biomesoplenty:fir_door>,
-		<biomesoplenty:cherry_door>,
-		<biomesoplenty:ebony_door>,
-		<biomesoplenty:ethereal_door>,
-		<biomesoplenty:eucalyptus_door>,
-		<biomesoplenty:hellbark_door>,
-		<biomesoplenty:jacaranda_door>,
-		<biomesoplenty:magic_door>,
-		<biomesoplenty:mahogany_door>,
-		<biomesoplenty:mangrove_door>,
-		<biomesoplenty:palm_door>,
-		<biomesoplenty:pine_door>,
-		<biomesoplenty:redwood_door>,
-		<biomesoplenty:sacred_oak_door>,
-		<biomesoplenty:umbran_door>,
-		<biomesoplenty:willow_door>,
 		<forestry:doors.acacia>, #Desert Acacia Door
 		<forestry:doors.balsa>, #Balsa Door
 		<forestry:doors.baobab>, #Baobab Door

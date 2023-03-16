@@ -76,7 +76,7 @@ import mods.jei.JEI.removeAndHide as rh;
 	<environmentaltech:erodium>, <environmentaltech:kyronite>, 
 	<environmentaltech:pladium>, <environmentaltech:ionite>, 
 	<environmentaltech:aethium>, <extendedcrafting:storage:3>,
-	<biomesoplenty:terrestrial_artifact>, <thermalexpansion:frame:148>]);
+	<contenttweaker:terrestrial_artifact>, <thermalexpansion:frame:148>]);
 
 # Wyvern Energy Core
 	recipes.remove(<draconicevolution:wyvern_energy_core>);
