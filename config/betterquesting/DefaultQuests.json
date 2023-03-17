@@ -51946,7 +51946,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "biomesoplenty:terrestrial_artifact",
+            "id:8": "contenttweaker:terrestrial_artifact"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -51995,7 +51995,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "biomesoplenty:terrestrial_artifact",
+              "id:8": "contenttweaker:terrestrial_artifact"
             }
           },
           "taskID:8": "bq_standard:retrieval"
