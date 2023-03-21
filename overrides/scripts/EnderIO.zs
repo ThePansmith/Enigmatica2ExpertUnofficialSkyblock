@@ -195,15 +195,9 @@ craft.remake(<enderio:block_impulse_hopper>, ["pretty",
 	recipes.remove(<enderio:block_farm_station>);
 	recipes.addShapedMirrored("Farming Station1", 
 	<enderio:block_farm_station>, 
-	[[<ore:ingotElectricalSteel>, <twilightforest:ironwood_hoe>.anyDamage(), <ore:ingotElectricalSteel>],
+	[[<ore:ingotElectricalSteel>, <minecraft:diamond_hoe>.anyDamage(), <ore:ingotElectricalSteel>],
 	[<ore:ingotElectricalSteel>, <enderio:item_material:1>, <ore:ingotElectricalSteel>], 
-	[<ore:gearVibrant>, <twilightforest:ironwood_axe>.anyDamage(), <ore:gearVibrant>]]);
-	
-	recipes.addShapedMirrored("Farming Station2", 
-	<enderio:block_farm_station>, 
-	[[<ore:ingotElectricalSteel>, <twilightforest:steeleaf_hoe>.anyDamage(), <ore:ingotElectricalSteel>],
-	[<ore:ingotElectricalSteel>, <enderio:item_material:1>, <ore:ingotElectricalSteel>], 
-	[<ore:gearVibrant>, <twilightforest:steeleaf_axe>.anyDamage(), <ore:gearVibrant>]]);
+	[<ore:gearVibrant>, <minecraft:diamond_axe>.anyDamage(), <ore:gearVibrant>]]);
 
 # The Vat
 	recipes.remove(<enderio:block_vat>);

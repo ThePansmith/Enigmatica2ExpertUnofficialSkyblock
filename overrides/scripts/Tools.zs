@@ -29,10 +29,6 @@ import mods.jei.JEI.removeAndHide as rh;
 	<immersiveengineering:axe_steel>,
 	<immersiveengineering:sword_steel>,
 	
-	<twilightforest:fiery_pickaxe>,
-	<twilightforest:steeleaf_pickaxe>.withTag({ench: [{lvl: 2 as short, id: 35 as short}]}),
-	<twilightforest:ironwood_pickaxe>.withTag({ench: [{lvl: 1 as short, id: 32 as short}]}),
-	
 	<mysticalagradditions:inferium_paxel>,
 	<mysticalagradditions:prudentium_paxel>,
 	<mysticalagradditions:intermedium_paxel>,

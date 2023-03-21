@@ -56,19 +56,7 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 	TrophyVariant:"gold"
 });
 
-var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
-  TrophyItem:{id:"twilightforest:trophy",Count:1 as byte, Damage:5 as short},
-  TrophyName:"Twilight Forest Master Trophy",
-  TrophyVariant:"gold"
-});
-
 # *======= Recipes =======*
-
-# Twilight Forest Master Trophy
-	recipes.addShapedMirrored("Twilight Forest Master Trophy", twilightForestMasterTrophy, 
-	[[<twilightforest:trophy>, <twilightforest:trophy:1>, <twilightforest:trophy:2>],
-	[<twilightforest:trophy:5>, <ore:blockCrystalMatrix>, <twilightforest:trophy:3>], 
-	[<twilightforest:trophy:4>, <twilightforest:trophy:8>, <twilightforest:trophy:6>]]);
 
 # Special Gas Tank Item
 	recipes.addShapedMirrored("Creative Gas Tank Frame", creativeGasTankFrame, 
@@ -76,9 +64,6 @@ var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
 	[<mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanBoron"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanBoron"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanMithril"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanMithril"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "fusionfuel"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "fusionfuel"}}})], 
 	[<mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "ethene"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "ethene"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "sulfuricacid"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "sulfuricacid"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "hydrogenchloride"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "hydrogenchloride"}}})]]);
 
-# Master Trophy
-	mods.jei.JEI.addItem(twilightForestMasterTrophy);
-	
 # Gas Tank Frame 
 	mods.jei.JEI.addItem(creativeGasTankFrame);
 	
@@ -106,8 +91,7 @@ var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
 	<nuclearcraft:ingot:9>,<nuclearcraft:ingot:10>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:2>,
 	<nuclearcraft:alloy:3>,<nuclearcraft:alloy:4>,<nuclearcraft:alloy:6>,<plustic:alumiteingot>,
 	<plustic:osgloglasingot>,<plustic:osmiridiumingot>,<plustic:mirioningot>,<psi:material:1>,
-	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,<twilightforest:ironwood_ingot>,
-	<twilightforest:fiery_ingot>,<twilightforest:knightmetal_ingot>,<thermalfoundation:material:128>,
+	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,<thermalfoundation:material:128>,
 	<thermalfoundation:material:129>,<thermalfoundation:material:162>,<thermalfoundation:material:163>,
 	<thermalfoundation:material:164>,<thermalfoundation:material:165>,<thermalfoundation:material:166>,
 	<thermalfoundation:material:167>,<tconstruct:ingots>,<tconstruct:ingots:1>,<tconstruct:ingots:2>,
@@ -187,7 +171,7 @@ var twilightForestMasterTrophy = <simple_trophies:trophy>.withTag({
 	[blackHoleUnit, resonantFrame, resonantFrame, draconicChest, <aeadditions:storage.component:3>, draconicChest, resonantFrame, resonantFrame, blackHoleUnit], 
 	[ultCatalyst, resonantFrame, <ore:blockAethium>, <draconicevolution:chaotic_core>, benitoite, <draconicevolution:chaotic_core>, <ore:blockAethium>, resonantFrame, ultCatalyst], 
 	[ultCatalyst, draconicChest, creativeEssence, <enderio:block_cap_bank>.withTag({"enderio:energy": 1000000000}), <ore:ingotInfinity>, <ic2:te:86>, creativeEssence, draconicChest, ultCatalyst], 
-	[<bigreactors:minerals>, <aeadditions:storage.component:3>, benitoite, <environmentaltech:solar_cont_6>, twilightForestMasterTrophy, <environmentaltech:solar_cont_6>, benitoite, <aeadditions:storage.component:3>, <bigreactors:minerals>], 
+	[<bigreactors:minerals>, <aeadditions:storage.component:3>, benitoite, <environmentaltech:solar_cont_6>, <tconstruct:materials:50>, <environmentaltech:solar_cont_6>, benitoite, <aeadditions:storage.component:3>, <bigreactors:minerals>], 
 	[ultCatalyst, draconicChest, creativeEssence, creativeTank, <ore:ingotInfinity>, creativeGasTank, creativeEssence, draconicChest, ultCatalyst], 
 	[ultCatalyst, resonantFrame, <ore:blockAethium>, <draconicevolution:chaotic_core>, benitoite, <draconicevolution:chaotic_core>, <ore:blockAethium>, resonantFrame, ultCatalyst], 
 	[blackHoleUnit, resonantFrame, resonantFrame, draconicChest, <aeadditions:storage.component:3>, draconicChest, resonantFrame, resonantFrame, blackHoleUnit], 

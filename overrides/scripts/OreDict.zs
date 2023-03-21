@@ -10,22 +10,6 @@ import mods.jei.JEI.removeAndHide as rh;
 
 <ore:chipDiamond>.add(<extrabitmanipulation:diamond_nugget>);
 
-# Oredicts for pressure plates
-var pressurePlates as IItemStack[] = [
-	<twilightforest:twilight_oak_plate>,
-	<twilightforest:canopy_plate>,
-	<twilightforest:mangrove_plate>,
-	<twilightforest:dark_plate>,
-	<twilightforest:time_plate>,
-	<twilightforest:trans_plate>,
-	<twilightforest:mine_plate>,
-	<twilightforest:sort_plate>
-];
-
-for item in pressurePlates {
-	<ore:pressurePlateWood>.add(item);
-}
-
 # Fixing Mortar and Pestle oredict from Pam's
 	<ore:pestleAndMortar>.add(<harvestcraft:mortarandpestleitem>);
 	
@@ -112,13 +96,6 @@ for item in pressurePlates {
 
 # Enhanced Ender Ingot
 	<ore:ingotEnderEnhanced>.add(<extendedcrafting:material:48>);
-	
-# Venison Oredict
-	<ore:listAllbeefraw>.add(<twilightforest:raw_venison>);
-	<ore:listAllmeatraw>.add(<twilightforest:raw_venison>);
-	
-	<ore:listAllbeefcooked>.add(<twilightforest:cooked_venison>);
-	<ore:listAllmeatcooked>.add(<twilightforest:cooked_venison>);
 	
 # Void Metal Block
 	<ore:blockVoid>.add(<thaumcraft:metal_void>);

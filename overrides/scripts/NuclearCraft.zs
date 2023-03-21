@@ -76,8 +76,6 @@ mods.nuclearcraft.melter.addRecipe(<ore:obsidian>, <liquid:obsidian> * 144);
 	mods.nuclearcraft.ingot_former.addRecipe([<liquid:base_essence>*144, <mysticalagriculture:crafting:32>, 1.0, 1.0]);
 	//Psimetal Ingot
 	mods.nuclearcraft.ingot_former.addRecipe([<liquid:psimetal>*144, <psi:material:1>, 1.0, 1.0]);
-	//Fiery Ingot
-	mods.nuclearcraft.ingot_former.addRecipe([<liquid:fierymetal>*144, <twilightforest:fiery_ingot>, 1.0, 1.0]);
 	//Seared Brick
 	mods.nuclearcraft.ingot_former.addRecipe([<liquid:stone>*72, <tconstruct:materials>, 1.0, 1.0]);
 	//Mud Brick

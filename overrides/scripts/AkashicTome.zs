@@ -27,7 +27,6 @@
 	bloodmagic:            {id: "guideapi:bloodmagic-guide",            Count: 1 as byte, tag: {"akashictome:definedMod": "bloodmagic"},            Damage: 0 as short},
 	openblocks:            {id: "openblocks:info_book",                 Count: 1 as byte, tag: {"akashictome:definedMod": "openblocks"},            Damage: 0 as short},
 	forestry: 						 {id: "forestry:book_forester", 						  Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, 							Damage: 0 as short},
-	twilightforest:        {id: "patchouli:guide_book",                 Count: 1 as byte, tag: {"akashictome:definedMod": "twilightforest", "patchouli:book": "twilightforest:guide"},  Damage: 0 as short},
 	draconicevolution:     {id: "draconicevolution:info_tablet",        Count: 1 as byte, tag: {"akashictome:definedMod": "draconicevolution"},                                         Damage: 0 as short},
 	}});
 	

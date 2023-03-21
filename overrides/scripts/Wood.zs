@@ -29,18 +29,6 @@ val vanilla as IItemStack[IIngredient] = {
   <minecraft:log2:1> : <minecraft:planks:5>,
 };
 
-# Twilight Forest
-val twilight as IItemStack[IIngredient] = {
-  <twilightforest:twilight_log>   : <twilightforest:twilight_oak_planks>,
-  <twilightforest:twilight_log:1> : <twilightforest:canopy_planks>,
-  <twilightforest:twilight_log:2> : <twilightforest:mangrove_planks>,
-  <twilightforest:twilight_log:3> : <twilightforest:dark_planks>,
-  <twilightforest:magic_log>      : <twilightforest:time_planks>,
-  <twilightforest:magic_log:1>    : <twilightforest:trans_planks>,
-  <twilightforest:magic_log:2>    : <twilightforest:mine_planks>,
-  <twilightforest:magic_log:3>    : <twilightforest:sort_planks>,
-};
-
 # Forestry, made by Trilexcom
 val forestry as IItemStack[IIngredient] = {
   <forestry:logs.0>   : <forestry:planks.0>,
@@ -83,7 +71,6 @@ val pam as IItemStack[IIngredient] = {
 
 
 for log, plank in vanilla   { saw(log, plank, "strict: manufactory mekSawmill"); }
-for log, plank in twilight  { saw(log, plank, "strict: manufactory mekSawmill"); }
 for log, plank in pam       { saw(log, plank, "strict: manufactory mekSawmill"); }
 for log, plank in forestry  { saw(log, plank, "no exceptions"); }
 

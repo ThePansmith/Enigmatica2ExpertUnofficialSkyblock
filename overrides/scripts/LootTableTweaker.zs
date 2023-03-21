@@ -32,9 +32,7 @@ var itemsToRemove as string[] = [
 	"minecraft:obsidian",
 	"minecraft:water_bucket",
 	
-	"randomthings:spectrecoil_number",
-
-	"twilightforest:uncrafting_table"
+	"randomthings:spectrecoil_number"
 ];
 
 for item in itemsToRemove {

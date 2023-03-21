@@ -18,17 +18,6 @@ import mods.chisel.Carving.addVariation;
 	addVariation("sootymarble", <astralsorcery:blockblackmarble:5>);
 	addVariation("sootymarble", <astralsorcery:blockblackmarble:6>);
 
-	addVariation("castlebrickrune", <twilightforest:castle_rune_brick:0>);
-	addVariation("castlebrickrune", <twilightforest:castle_rune_brick:1>);
-	addVariation("castlebrickrune", <twilightforest:castle_rune_brick:2>);
-	addVariation("castlebrickrune", <twilightforest:castle_rune_brick:3>);
-
-	addVariation("castlebrickdoor", <twilightforest:castle_door:0>);
-	addVariation("castlebrickdoor", <twilightforest:castle_door:1>);
-	addVariation("castlebrickdoor", <twilightforest:castle_door:2>);
-	addVariation("castlebrickdoor", <twilightforest:castle_door:3>);
-
-
 # Environmental Materials
 for i in 0 to 16 {
 	addVariation("alabaster " ~ i, <environmentalmaterials:alabaster>.definition.makeStack(i));

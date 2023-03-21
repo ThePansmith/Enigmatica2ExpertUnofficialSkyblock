@@ -54,9 +54,6 @@ recipes.remove(<extrabitmanipulation:diamond_nugget>);
 	[<ore:blockGlassHardened>, <ore:netherStar>, <ore:blockGlassHardened>],
 	[<ore:blockGlassHardened>, <ore:itemGhastTear>, <ore:blockGlassHardened>]]);
 
-# Twilight Forest Uncrafting Table
-	rh(<twilightforest:uncrafting_table>);
-	
 # Cyclic Guide
 	recipes.addShapeless("Cyclic Guide", 
 	<guideapi:cyclicmagic-guide>, 

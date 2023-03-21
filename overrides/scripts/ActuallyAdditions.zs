@@ -240,12 +240,6 @@ var listCatFur as string[] = [
 "tconstruct:slime_grass_tall"         ,"8"   , "40" , # Tall Slimy Grass
 "thaumcraft:salis_mundus"             ,"0"   , "5"  , # Salis Mundus
 "thermalfoundation:material"          ,"160" , "15" , # Steel Ingot
-"twilightforest:alpha_fur"            ,"0"   , "3"  , # Alpha Yeti Fur
-"twilightforest:arctic_fur"           ,"0"   , "15" , # Arctic Fur
-"twilightforest:cicada"               ,"0"   , "50" , # Cicada
-"twilightforest:firefly"              ,"0"   , "50" , # Firefly
-"twilightforest:raven_feather"        ,"0"   , "50" , # Raven Feather
-"twilightforest:twilight_plant"       ,"5"   , "50" , # Forest Grass
 ] as string[];
 
 # Calculate total weight
