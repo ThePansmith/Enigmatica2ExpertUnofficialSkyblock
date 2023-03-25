@@ -145,6 +145,8 @@ rh( <skyresources:orealchdust:22>);
 rh( <skyresources:orealchdust:24>);
 rh( <jaopca:item_dirtygemdimensionalshard>);
 rh( <skyresources:dirtygem:15>);
-
+rh(<sc:compressedgravel>);
+rh(<sc:compressedcobblestone>);
+rh(<sc:compressednetherrack>);
 
 		print("--- SkyResources.zs initialized ---");
