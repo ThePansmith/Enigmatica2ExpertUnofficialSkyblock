@@ -3716,10 +3716,10 @@
           "weight:3": 1,
           "items:9": {
             "0:10": {
-              "id:8": "mysticalagradditions:inferium_paxel",
-              "Count:3": 16,
+              "id:8": "ic2:mining_laser",
+              "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:3": 0
             }
           }
         },
@@ -4272,7 +4272,7 @@
           "weight:3": 1,
           "items:9": {
             "0:10": {
-              "id:8": "iceandfire:dragonegg_green",
+              "id:8": "ic2:nuclear:3",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
