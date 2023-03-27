@@ -5041,7 +5041,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Combine bees with Store to gather time. Combine with Time In Bottle to transfer time to bottle.\n\n- The Total value shows the number of unique gene pairs saved. - At least one pair of genes must be new or you will receive a penalty - The penalty exponentially reduces the reward.\n- If a pair of recessive and dominant genes is swapped, it counts as a new gene.\n- Princesses give x10 more time than drones, Queens are ×15.\n- Reward increases exponentially if more pairs are added for 1 bee. For example, for +4 genes you get 8 minutes, and for +12 genes you get an hour.\n- The more pairs of genes already saved, the greater the next reward.",
+          "desc:8": "Combine bees with Store to gather time. Combine with Time In Bottle to transfer time to bottle.\n\n- The Total value shows the number of unique gene pairs saved. \n- At least one pair of genes must be new or you will receive a penalty \n- The penalty exponentially reduces the reward.\n- If a pair of recessive and dominant genes is swapped, it counts as a new gene.\n- Princesses give x10 more time than drones, Queens are ×15.\n- Reward increases exponentially if more pairs are added for 1 bee. For example, for +4 genes you get 8 minutes, and for +12 genes you get an hour.\n- The more pairs of genes already saved, the greater the next reward.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
