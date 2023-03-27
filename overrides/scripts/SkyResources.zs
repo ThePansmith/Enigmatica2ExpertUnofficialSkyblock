@@ -77,11 +77,20 @@ mods.skyresources.combustion.addRecipe(<enderio:item_material:20>*2,[<enderio:it
 # *==== Rock Grinder ====*
 #mods.skyresources.rockgrinder.removeRecipe(ItemStack output);
 
+# SC rock grinder
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:43>, <sc:compressedstone>, 0.336);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:43>, <minecraft:stone>, 0.048);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:8>, <sc:compressedstone>, 0.147);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:8>, <minecraft:stone>, 0.021);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:17>, <sc:compressedstone>, 0.126);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:17>, <minecraft:stone>, 0.018);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:42>, <sc:compressedstone>, 0.252);
+mods.sc.compressedrockgrinder.addRecipe(<skyresources:dirtygem:42>, <minecraft:stone>, 0.036);
+
 # Removed
 mods.skyresources.rockgrinder.removeRecipe(<jaopca:item_dirtygemdimensionalshard>);
 mods.skyresources.rockgrinder.removeRecipe(<skyresources:dirtygem:15>);
 mods.sc.compressedrockgrinder.removeRecipe(<skyresources:dirtygem:15>);
-
 
 
 # *==== Life Infusion ====*
