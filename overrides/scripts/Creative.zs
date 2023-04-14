@@ -36,7 +36,7 @@ import crafttweaker.item.IItemCondition;
 	var speedUpgrade3 = <extrautils2:ingredients:16>;
 	var sunCrystal = <extrautils2:suncrystal>;
 	var kleinBottle = <extrautils2:klein>;
-	var blockLudicrite = <bigreactors:blockmetals:4>;
+	var blockLudicrite = <enderio:block_alloy_endergy:3>;
 	var gasPad = <advancedrocketry:oxygencharger>;
     var blockOsgloglas = <ore:blockOsgloglas>;
 	var blockMirion = <ore:blockMirion>;

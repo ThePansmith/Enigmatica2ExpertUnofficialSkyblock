@@ -122,8 +122,8 @@ x.setJEIDurationSlot(3,0,"duration", getVisSlots(5,1));
 addInsOuts(x, [[1,1],[1,0],[2,0],[0,0]], [[4,0]]);
 
 val worldItem as IItemStack[int] = {
-  0: <biomesoplenty:earth>.withTag({display:{Name:"§6OVERWORLD"}}),
-  1: <biomesoplenty:earth>.withTag({display:{Name:"§6THE END"}}),
+  0: <contenttweaker:earth>.withTag({display:{Name:"§6OVERWORLD"}}),
+  1: <contenttweaker:earth>.withTag({display:{Name:"§6THE END"}}),
 };
 
 /*Inject_js(
@@ -347,7 +347,7 @@ addInsOuts(x, [[1,0],[0,1],[1,1],[2,1]], [[4,1]]);
 
 val mana as IItemStack[int] = {
   0: <botania:spark>.withTag({display:{Name:"§6Needs Mana"}}),
-  1: <biomesoplenty:earth>.withTag({display:{Name:"§6THE END"}}),
+  1: <contenttweaker:earth>.withTag({display:{Name:"§6THE END"}}),
 };
 
 

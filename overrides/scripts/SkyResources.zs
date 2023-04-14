@@ -18,7 +18,6 @@ mods.skyresources.cauldronclean.removeRecipe(<nuclearcraft:dust:7>);
 mods.skyresources.cauldronclean.removeRecipe(<nuclearcraft:dust:3>);
 mods.skyresources.cauldronclean.removeRecipe(<thermalfoundation:material:72>);
 mods.skyresources.cauldronclean.removeRecipe(<draconicevolution:draconium_dust:0>);
-mods.skyresources.cauldronclean.removeRecipe(<bigreactors:dustmetals:0>);
 mods.skyresources.cauldronclean.removeRecipe(<rftools:dimensional_shard:0>);
 mods.skyresources.cauldronclean.removeRecipe(<contenttweaker:amethyst>);
 
@@ -134,9 +133,7 @@ mods.skyresources.condenser.removeRecipe(<thermalfoundation:ore:8>);
 #Draconium
 mods.skyresources.condenser.removeRecipe(<draconicevolution:draconium_ingot>);
 mods.skyresources.condenser.removeRecipe(<draconicevolution:draconium_ore:2>);
-#Yellorium
-mods.skyresources.condenser.removeRecipe(<bigreactors:ingotmetals:0>);
-mods.skyresources.condenser.removeRecipe(<bigreactors:brore:0>);
+
 
 # *== JEI Remove and Hide ==*
 rh( <skyresources:orealchdust:5>);

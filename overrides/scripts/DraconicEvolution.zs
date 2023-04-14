@@ -131,7 +131,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(
 	[<appliedenergistics2:material:41>,<draconicevolution:energy_crystal:0>,<appliedenergistics2:material:41>],
 	[<ore:dustAstralStarmetal>,<extrautils2:powertransmitter>,<ore:dustAstralStarmetal>]]);
 
-+# Flux Gate
+# Flux Gate
 	recipes.remove(<draconicevolution:flow_gate:0>);
 	recipes.addShapedMirrored("Flux Gate", 
 	<draconicevolution:flow_gate:0>,

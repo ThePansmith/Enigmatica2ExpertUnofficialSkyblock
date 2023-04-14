@@ -20,3 +20,4 @@ buildItem("amethyst");
 buildItem("terrestrial_artifact");
 buildItem("anglesite");
 buildItem("benitoite");
+buildItem("earth");
