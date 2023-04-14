@@ -18,3 +18,5 @@ buildItem("sapphire");
 buildItem("malachite");
 buildItem("amethyst");
 buildItem("terrestrial_artifact");
+buildItem("anglesite");
+buildItem("benitoite");
