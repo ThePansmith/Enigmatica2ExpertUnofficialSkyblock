@@ -132,8 +132,8 @@ mods.actuallyadditions.Crusher.removeRecipe(<appliedenergistics2:material>);
 
 # Matter Condenser
 	recipes.remove(<appliedenergistics2:condenser>);	
-	mods.extendedcrafting.CompressionCrafting.addRecipe(<excompressum:auto_compressor>, 
-	<minecraft:piston>, 10000, <mekanism:machineblock:7>.withTag({recipeType: 3}), 1000000000, 1000000);
+	mods.extendedcrafting.CompressionCrafting.addRecipe(<appliedenergistics2:condenser>, 
+	<minecraft:piston>, 10000, <excompressum:auto_compressor>, 1000000000, 1000000);
 	
 # Molecular Assembler
 	recipes.remove(<appliedenergistics2:molecular_assembler>);
