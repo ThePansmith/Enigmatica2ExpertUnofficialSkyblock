@@ -11,7 +11,7 @@ import mods.jei.JEI.removeAndHide as rh;
 	recipes.addShapedMirrored("Mob Grinder", 
 	<draconicevolution:grinder>, 
 	[[<ore:ingotElectricalSteel>, <draconicevolution:draconium_block:1>, <ore:ingotElectricalSteel>],
-	[<astralsorcery:itemcrystalsword>.onlyDamageAtLeast(0), <draconicevolution:draconic_core>, <astralsorcery:itemcrystalsword>.onlyDamageAtLeast(0)],, 
+	[<astralsorcery:itemcrystalsword>.onlyDamageAtLeast(0), <draconicevolution:draconic_core>, <astralsorcery:itemcrystalsword>.onlyDamageAtLeast(0)], 
 	[<ore:ingotElectricalSteel>, <industrialforegoing:mob_relocator>, <ore:ingotElectricalSteel>]]);
 
 # Charged Draconium
