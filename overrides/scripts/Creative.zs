@@ -1,13 +1,13 @@
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemCondition;
-
+import scripts.craft.helper.gridRecipe.GridRecipe;
 
 # *======= Variables =======*
 
 	var ingotUltimate = <ore:ingotUltimate>;
 	var ultCatalyst = <extendedcrafting:material:13>;
 	var elitePlating = <ore:plateElite>;
-	var resonantCube = <thermalexpansion:cell>.withTag({Level: 4 as byte});
+	var resonantCube = <appliedenergistics2:dense_energy_cell>;
 	var resonantFrame = <thermalexpansion:frame:148>;
 	var awakendedCapacitor = <draconicevolution:draconium_capacitor:1>;
 	var awakendedCore = <draconicevolution:awakened_core>;
@@ -36,7 +36,7 @@ import crafttweaker.item.IItemCondition;
 	var speedUpgrade3 = <extrautils2:ingredients:16>;
 	var sunCrystal = <extrautils2:suncrystal>;
 	var kleinBottle = <extrautils2:klein>;
-	var blockLudicrite = <enderio:block_alloy_endergy:3>;
+	var blockStellar = <enderio:block_alloy_endergy:3>;
 	var gasPad = <advancedrocketry:oxygencharger>;
     var blockOsgloglas = <ore:blockOsgloglas>;
 	var blockMirion = <ore:blockMirion>;
@@ -56,6 +56,7 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 	TrophyVariant:"gold"
 });
 
+
 # *======= Recipes =======*
 
 # Special Gas Tank Item
@@ -64,6 +65,8 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 	[<mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanBoron"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanBoron"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanMithril"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "slurryCleanMithril"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "fusionfuel"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "fusionfuel"}}})], 
 	[<mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "ethene"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "ethene"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "sulfuricacid"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "sulfuricacid"}}}), <mekanism:gastank>.withTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "hydrogenchloride"}}}).onlyWithTag({tier: 3, mekData: { stored: {amount: 512000, gasName: "hydrogenchloride"}}})]]);
 
+
+	
 # Gas Tank Frame 
 	mods.jei.JEI.addItem(creativeGasTankFrame);
 	
@@ -91,7 +94,8 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 	<nuclearcraft:ingot:9>,<nuclearcraft:ingot:10>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:2>,
 	<nuclearcraft:alloy:3>,<nuclearcraft:alloy:4>,<nuclearcraft:alloy:6>,<plustic:alumiteingot>,
 	<plustic:osgloglasingot>,<plustic:osmiridiumingot>,<plustic:mirioningot>,<psi:material:1>,
-	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,<thermalfoundation:material:128>,
+	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,<twilightforest:ironwood_ingot>,
+	<twilightforest:fiery_ingot>,<twilightforest:knightmetal_ingot>,<thermalfoundation:material:128>,
 	<thermalfoundation:material:129>,<thermalfoundation:material:162>,<thermalfoundation:material:163>,
 	<thermalfoundation:material:164>,<thermalfoundation:material:165>,<thermalfoundation:material:166>,
 	<thermalfoundation:material:167>,<tconstruct:ingots>,<tconstruct:ingots:1>,<tconstruct:ingots:2>,
@@ -155,7 +159,7 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 
 # Thermal Creative Tank
 	mods.extendedcrafting.TableCrafting.addShaped(4, creativeTank, 
-	[[<industrialforegoing:black_hole_tank>, <minecraft:milk_bucket>, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000}), <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "bio.ethanol", Amount: 32000}, Level: 0 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "bio.ethanol", Amount: 32000}}), <forge:bucketfilled>.withTag({FluidName: "juice", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "mutagen", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "biomass", Amount: 1000}), <industrialforegoing:black_hole_tank>], 
+	[[<industrialforegoing:black_hole_tank>, <forge:bucketfilled>.withTag({FluidName: "milk", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000}), <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "bio.ethanol", Amount: 32000}, Level: 0 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "bio.ethanol", Amount: 32000}}), <forge:bucketfilled>.withTag({FluidName: "juice", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "mutagen", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "biomass", Amount: 1000}), <industrialforegoing:black_hole_tank>], 
 	[<forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: 1000}), resonantFrame, ingotUltimate, ingotUltimate, <contenttweaker:anglesite>, ingotUltimate, ingotUltimate, resonantFrame, <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000})], 
 	[<forge:bucketfilled>.withTag({FluidName: "xu_demonic_metal", Amount: 1000}), ingotUltimate, megaDrum, megaDrum, megaDrum, megaDrum, megaDrum, ingotUltimate, <forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000})], 
 	[<forge:bucketfilled>.withTag({FluidName: "draconium", Amount: 1000}), ingotUltimate, megaDrum, awakendedCore, ultCatalyst, awakendedCore, megaDrum, ingotUltimate, <forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000})], 
@@ -207,15 +211,15 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
 
 # Creative Gas Tank 
 	mods.extendedcrafting.TableCrafting.addShaped(4, <mekanism:gastank>.withTag({tier: 4, mekData: {}}),	
-	[[ingotUltimate, ingotUltimate, ingotUltimate, blockLudicrite, rocketFuel, blockLudicrite, ingotUltimate, ingotUltimate, ingotUltimate], 
+	[[ingotUltimate, ingotUltimate, ingotUltimate, blockStellar, rocketFuel, blockStellar, ingotUltimate, ingotUltimate, ingotUltimate], 
 	[ingotUltimate, blackHoleTank, blockOsgloglas, anglesite, rocketFuel, anglesite, blockOsgloglas, blackHoleTank, ingotUltimate], 
-	[ingotUltimate, blockMirion, <thermalexpansion:tank>.withTag({Fluid: {FluidName: "neutron", Amount: 512000}, Level: 3 as byte}), <avaritia:resource:4>, ultCatalyst, <avaritia:resource:4>, <thermalexpansion:tank>.withTag({Fluid: {FluidName: "mana", Amount: 512000}, Level: 3 as byte}), blockMirion, ingotUltimate], 
-	[blockLudicrite, benitoite, gasPad, awakendedCore, <advancedrocketry:liquidtank>, awakendedCore, gasPad, benitoite, blockLudicrite], 
+	[ingotUltimate, blockMirion, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "neutron", Amount: 512000}, Level: 3 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "neutron", Amount: 512000}, Level: 3 as byte}), <avaritia:resource:4>, ultCatalyst, <avaritia:resource:4>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "mana", Amount: 512000}, Level: 3 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "mana", Amount: 512000}, Level: 3 as byte}), blockMirion, ingotUltimate], 
+	[blockStellar, benitoite, gasPad, awakendedCore, <advancedrocketry:liquidtank>, awakendedCore, gasPad, benitoite, blockStellar], 
 	[rocketFuel, rocketFuel, ultCatalyst, <advancedrocketry:liquidtank>, creativeGasTankFrame, <advancedrocketry:liquidtank>, ultCatalyst, rocketFuel, rocketFuel], 
-	[blockLudicrite, benitoite, gasPad, awakendedCore, creativeTank, awakendedCore, gasPad, benitoite, blockLudicrite], 
-	[ingotUltimate, blockMirion, <thermalexpansion:tank>.withTag({Fluid: {FluidName: "ic2uu_matter", Amount: 512000}, Level: 3 as byte}), <avaritia:resource:4>, ultCatalyst, <avaritia:resource:4>, <thermalexpansion:tank>.withTag({Fluid: {FluidName: "liquiddna", Amount: 512000}, Level: 3 as byte}), blockMirion, ingotUltimate], 
+	[blockStellar, benitoite, gasPad, awakendedCore, creativeTank, awakendedCore, gasPad, benitoite, blockStellar], 
+	[ingotUltimate, blockMirion, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "ic2uu_matter", Amount: 512000}, Level: 3 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "ic2uu_matter", Amount: 512000}, Level: 3 as byte}), <avaritia:resource:4>, ultCatalyst, <avaritia:resource:4>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "liquiddna", Amount: 512000}, Level: 3 as byte, Lock: 0 as byte})|<thermalexpansion:tank>.withTag({Fluid: {FluidName: "liquiddna", Amount: 512000}, Level: 3 as byte}), blockMirion, ingotUltimate], 
 	[ingotUltimate, blackHoleTank, blockOsgloglas, anglesite, rocketFuel, anglesite, blockOsgloglas, blackHoleTank, ingotUltimate],
-	[ingotUltimate, ingotUltimate, ingotUltimate, blockLudicrite, rocketFuel, blockLudicrite, ingotUltimate, ingotUltimate, ingotUltimate]]);  
+	[ingotUltimate, ingotUltimate, ingotUltimate, blockStellar, rocketFuel, blockStellar, ingotUltimate, ingotUltimate, ingotUltimate]]);  
 	recipes.addShapeless("Creative Gas Tank Reset", 
 	<mekanism:gastank>.withTag({tier: 4, mekData: {}}), 
 	[<mekanism:gastank>.withTag({tier: 4})]);
@@ -291,4 +295,3 @@ var creativeGasTankFrame = <simple_trophies:trophy>.withTag({
   [<ore:ingotThaumium>,  <contenttweaker:benitoite>,  <thaumcraft:mind>,  <ore:ingotBrass>,  <ore:ingotBrass>,  <ore:ingotBrass>,  <thaumcraft:mind>,  <contenttweaker:benitoite>,  <ore:ingotThaumium>],
   [<ore:ingotThaumium>, <thaumcraft:mechanism_complex>,  <contenttweaker:benitoite>,  <contenttweaker:benitoite>,  <contenttweaker:benitoite>,  <contenttweaker:benitoite>,  <contenttweaker:benitoite>, <thaumcraft:mechanism_complex>,  <ore:ingotThaumium>],
   [<ore:blockVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:blockVoid>]]);
-		
