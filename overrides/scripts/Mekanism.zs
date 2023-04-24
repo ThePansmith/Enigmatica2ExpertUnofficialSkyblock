@@ -7,6 +7,7 @@ import crafttweaker.item.IIngredient;
 mods.mekanism.combiner.removeAllRecipes();
 recipes.remove(<mekanism:machineblock:2>);
 
+
 for ingot in <ore:ingotGraphite>.items {
 	mods.mekanism.crusher.addRecipe(ingot, <nuclearcraft:dust:8>);
 }
@@ -34,7 +35,7 @@ for input, output in itemsToUnify {
 	mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
 	
 	var ultimateGasTank = <mekanism:gastank>.withTag({tier: 3})|<mekanism:gastank>.withTag({tier: 3, mekData:{security:0}});
-	var ultimateFluidTank = <mekanism:machineblock2:11>.withTag({tier: 3})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{security:0}});
+	var ultimateFluidTank = <mekanism:machineblock2:11>.withTag({tier: 3})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{}})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{security:0}});
 	
 # Increasing Stacksize
 	<mekanism:tierinstaller>.maxStackSize = 16;
@@ -114,7 +115,7 @@ for input, output in itemsToUnify {
 	recipes.addShapedMirrored("Chemical Dissolution Chamber", 
 	<mekanism:machineblock2:6>, 
 	[[<ore:circuitUltimate>, ultimateGasTank, <ore:circuitUltimate>],
-	[<mekanism:basicblock:11>, <forge:bucketfilled>.withTag({FluidName: "sulfuric_acid", Amount: 1000})|<forge:bucketfilled>.withTag({FluidName: "sulfuricacid", Amount: 1000}), <mekanism:basicblock:11>], 
+	[<mekanism:basicblock:11>, <mekanism:machineblock2:11>, <mekanism:basicblock:11>], 
 	[<ore:circuitUltimate>, ultimateGasTank, <ore:circuitUltimate>]]);
 
 # Chemical Washer
