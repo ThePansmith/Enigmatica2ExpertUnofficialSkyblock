@@ -7,7 +7,6 @@ import crafttweaker.item.IIngredient;
 mods.mekanism.combiner.removeAllRecipes();
 recipes.remove(<mekanism:machineblock:2>);
 
-
 for ingot in <ore:ingotGraphite>.items {
 	mods.mekanism.crusher.addRecipe(ingot, <nuclearcraft:dust:8>);
 }
@@ -35,7 +34,7 @@ for input, output in itemsToUnify {
 	mods.mekanism.smelter.addRecipe(<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:1>);
 	
 	var ultimateGasTank = <mekanism:gastank>.withTag({tier: 3})|<mekanism:gastank>.withTag({tier: 3, mekData:{security:0}});
-	var ultimateFluidTank = <mekanism:machineblock2:11>.withTag({tier: 3})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{}})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{security:0}});
+	var ultimateFluidTank = <mekanism:machineblock2:11>.withTag({tier: 3})|<mekanism:machineblock2:11>.withTag({tier: 3, mekData:{security:0}});
 	
 # Increasing Stacksize
 	<mekanism:tierinstaller>.maxStackSize = 16;
@@ -131,7 +130,7 @@ for input, output in itemsToUnify {
 	recipes.addShapedMirrored("Chemical Crystallizer", 
 	<mekanism:machineblock2:8>, 
 	[[ultimateGasTank, <extrautils2:suncrystal>, ultimateGasTank],
-	[<ore:circuitUltimate>, <ic2:lapotron_crystal:*>, <ore:circuitUltimate>]]);
+	[<mekanismgenerators:reactor:2>, <advancedrocketry:crystallizer>, <mekanismgenerators:reactor:2>], 
 	[<ore:circuitUltimate>, <ic2:lapotron_crystal>.anyDamage(), <ore:circuitUltimate>]]);
 
 # Gas-burning generator
