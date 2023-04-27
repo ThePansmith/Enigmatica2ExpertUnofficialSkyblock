@@ -23063,38 +23063,12 @@
         }
       },
       "questID:3": 301,
-      "rewards:9": {
-        "0:10": {
-          "asScript:1": 1,
-          "command:8": "#Script Comment\nsay Running reward script...\nsay @s Claimed a reward",
-          "description:8": "Run a command script",
-          "hideBlockIcon:1": 1,
-          "index:3": 0,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "bq_standard.reward.command",
-          "viaPlayer:1": 0
-        }
+      "rewards:9": {},
       },
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "mbtool:mbtool",
-              "tag:10": {
-                "electricity:5": 10000.0
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       }
     },
