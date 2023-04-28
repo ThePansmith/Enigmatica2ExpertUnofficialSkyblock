@@ -89,7 +89,7 @@ import scripts.craft.helper.gridRecipe.GridRecipe;
 	<nuclearcraft:ingot:9>,<nuclearcraft:ingot:10>,<nuclearcraft:alloy:1>,<nuclearcraft:alloy:2>,
 	<nuclearcraft:alloy:3>,<nuclearcraft:alloy:4>,<nuclearcraft:alloy:6>,<plustic:alumiteingot>,
 	<plustic:osgloglasingot>,<plustic:osmiridiumingot>,<plustic:mirioningot>,<psi:material:1>,
-	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,<twilightforest:ironwood_ingot>,
+	<psi:material:3>,<psi:material:4>,<redstonearsenal:material:32>,
 	<thermalfoundation:material:129>,<thermalfoundation:material:162>,<thermalfoundation:material:163>,
 	<thermalfoundation:material:164>,<thermalfoundation:material:165>,<thermalfoundation:material:166>,
 	<thermalfoundation:material:167>,<tconstruct:ingots>,<tconstruct:ingots:1>,<tconstruct:ingots:2>,
