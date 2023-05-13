@@ -46,6 +46,12 @@ recipes.remove(<extrabitmanipulation:diamond_nugget>);
 	<immersiveengineering:metal:5> * 9, 
 	[<ore:blockUranium>]);
 	
+# Marble
+	recipes.addShapedMirrored("Marble",<astralsorcery:blockmarble:0>*8,[
+	[<ore:stone>,<ore:stone>,<ore:stone>],
+	[<ore:stone>,<ore:dyeWhite>,<ore:stone>],
+	[<ore:stone>,<ore:stone>,<ore:stone>]]);
+
 # End Crystal
 	recipes.remove(<minecraft:end_crystal>);
 	recipes.addShaped("End Crystal", 
