@@ -2998,7 +2998,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka PAE2), and along with it some new features have been brought with it. \n\nIf you want detail on the new features and changes that PAE2 has, refer to the video link that will be whispered to you.\n",
+          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka PAE2), and along with it some new features have been brought with it. \n\nIf you want detail on the new features and changes that PAE2 has, refer to the video link that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33051,41 +33051,9 @@
       "questID:3": 434,
       "rewards:9": {
         "0:10": {
-          "choices:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:wireless_pattern_terminal",
-              "tag:10": {
-                "internalCurrentPower:6": 1600000.0,
-                "internalMaxPower:6": 1600000.0
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:wireless_fluid_terminal",
-              "tag:10": {
-                "internalCurrentPower:6": 1600000.0,
-                "internalMaxPower:6": 1600000.0
-              }
-            }
-          },
           "index:3": 0,
-          "rewardID:8": "bq_standard:choice"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
@@ -33095,8 +33063,37 @@
                 "internalCurrentPower:6": 1600000.0,
                 "internalMaxPower:6": 1600000.0
               }
-            },
-            "1:10": {
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 59,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
