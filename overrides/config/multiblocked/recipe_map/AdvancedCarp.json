@@ -632,7 +632,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"biomesoplenty:gem\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:amethyst\",Count:1,Damage:0s}"
               ]
             }
           },
