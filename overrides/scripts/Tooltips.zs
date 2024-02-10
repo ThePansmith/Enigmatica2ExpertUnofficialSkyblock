@@ -576,3 +576,6 @@ for item in thaumcraftHintItems {
 
 <ic2:jetpack_electric:26>.addTooltip(format.yellow("Can be removed from armor by crafting with a Sponge."));
 <minecraft:sponge>.addTooltip(format.yellow("Can remove jetpacks from armor and tinkers modifiers from tools by crafting them with said item."));
+# Creative Items
+<storagedrawers:upgrade_creative:1>.addTooltip(format.darkPurple("Place in a crafting grid to replicate"));
+<ore:cgastank>.addTooltip(format.darkPurple("Place in a crafting grid to reset"));
