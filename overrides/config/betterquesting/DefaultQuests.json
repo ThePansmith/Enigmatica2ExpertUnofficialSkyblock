@@ -9473,7 +9473,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Empowerer is a crafting mechanic. You\u0027ll need to place the Display Stands with 2 blocks between them and the Empowerer, in all 4 cardinal directions.\n\nThe Display Stands require power for the Empowerer to function.\n\nEach Display Stand needs a ingredient, and the Empowerer takes one aswell.\n\nThe crafting process automatically begins if 4 correct ingredients and the corresponding Empowerer item is supplied.\n\nAutomating it can be done with Item lasers, refer to the linked video.\n",
+          "desc:8": "The Empowerer is a crafting mechanic. You\u0027ll need to place the Display Stands with 2 blocks between them and the Empowerer, in all 4 cardinal directions.\n\nThe Display Stands require power for the Empowerer to function.\n\nEach Display Stand needs a ingredient, and the Empowerer takes one aswell.\n\nThe crafting process automatically begins if 4 correct ingredients and the corresponding Empowerer item is supplied.\n\nAutomating it can be done with Item lasers, refer to the linked video.\n{Embed}TypeLink;https://youtu.be/DQCWZ_MKOTI;240;15;Empowerment Automation in under 15 seconds{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9513,16 +9513,6 @@
               "id:8": "bq_standard:loot_chest"
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "/tell @p https://youtu.be/DQCWZ_MKOTI",
-          "description:8": "Actually Additions Empowerment Automation in under 15 seconds\n",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Give a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -17106,7 +17096,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant. See https://teamcofh.com/docs/compression-dynamo/ for the full list of fuels.",
+          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant.{Embed}TypeLink;https://teamcofh.com/docs/compression-dynamo/;240;15;Full fuel list{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17187,7 +17177,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar. See https://teamcofh.com/docs/reactant-dynamo/ for the full list of fuels.",
+          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar.{Embed}TypeLink;https://teamcofh.com/docs/reactant-dynamo/;240;15;Full fuel list{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39022,7 +39012,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide. \n\nThe mod author made this spotlight on it:\n§1§9https://www.youtube.com/watch?v\u003dL-0LOtg2Plk\u0026t\u003d12s§0\n\n\n\n... That\u0027s not actually a hyperlink, it\u0027s just coloured text. Sorry.\n\nYou will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
+          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide. \n\nThe mod author made this spotlight on it:{Embed}TypeLink;https://www.youtube.com/watch?v=B9ctB28I3qI&t=0s;240;15;Spotlight by the mod author{Embed}\n\nYou will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39093,7 +39083,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\nHere\u0027s a slightly outdated spotlight made by the mod author:\n\n§9https://www.youtube.com/watch?v\u003dG5pM93a0MGA\u0026t\u003d2s\n§0\n\nThat\u0027s not actually a hyperlink, it\u0027s just coloured text. Sorry.\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
+          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://www.youtube.com/watch?v=G5pM93a0MGA&t=2s;240;15;Slighty outdated spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
