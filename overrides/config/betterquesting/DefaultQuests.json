@@ -2999,7 +2999,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si=_TcYdnI1am0P71QJ;200;15;Applied Energistics 2 Guide{Embed}",
+          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si\u003d_TcYdnI1am0P71QJ;200;15;Applied Energistics 2 Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6827,7 +6827,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Nuclear Reactor is capable of producing huge amounts of EU.\n\n\nIf you\u0027ve never used the Nuclear Reactor, I highly suggest that you find a guide or tutorial.\n\nThe amount of EU it produces has been increased.{Embed}TypeLink;https://wiki.industrial-craft.net/index.php/Nuclear_Reactor;240;15;Nuclear Reactor Guide{Embed}",
+          "desc:8": "The Nuclear Reactor is capable of producing huge amounts of EU.\n\n\nIf you\u0027ve never used the Nuclear Reactor, I highly suggest that you find a guide or tutorial.\n\nThe amount of EU it produces has been increased.{Embed}TypeLink;https://wiki.industrial-craft.net/index.php/Nuclear_Reactor;210;15;Nuclear Reactor Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8162,7 +8162,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Early game power.\n\nOf note, is that there is a setup that can be built that will allow these waterwheels to generate 88rf/t, not bad for their cost. {Embed}TypeLink;https://youtu.be/SRSgDLRZI_Y;190;15;Quick Waterwheel Setup Tutorial{Embed}",
+          "desc:8": "Early game power.\n\nOf note, is that there is a setup that can be built that will allow these waterwheels to generate 88rf/t, not bad for their cost. {Embed}TypeLink;https://youtu.be/SRSgDLRZI_Y;210;15;Quick Waterwheel Setup Tutorial{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15462,7 +15462,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A Reactor capable of producing insane amounts of energy. It runs on D-T Fuel, made from Deuterium and Tritium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Fusion_Reactor;240;15;Fusion Reactor Setup Guide{Embed}",
+          "desc:8": "A Reactor capable of producing insane amounts of energy. It runs on D-T Fuel, made from Deuterium and Tritium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Fusion_Reactor;210;15;Fusion Reactor Setup Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15567,7 +15567,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Thermal Evaporation Plant is a multiblock capable of turning Water into Brine, and Brine into Lithium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant;240;15;Thermal Evaporation Plant Guide{Embed}",
+          "desc:8": "The Thermal Evaporation Plant is a multiblock capable of turning Water into Brine, and Brine into Lithium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant;210;15;Thermal Evaporation Plant Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 64,
@@ -17096,7 +17096,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant.{Embed}TypeLink;https://teamcofh.com/docs/compression-dynamo/;240;15;Full fuel list{Embed}",
+          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant.{Embed}TypeLink;https://teamcofh.com/docs/compression-dynamo/;110;15;Fuel List{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17177,7 +17177,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar.{Embed}TypeLink;https://teamcofh.com/docs/reactant-dynamo/;240;15;Full fuel list{Embed}",
+          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar.{Embed}TypeLink;https://teamcofh.com/docs/reactant-dynamo/;110;15;Fuel List{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34017,7 +34017,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Astrobody Data Processor is a multiblock machine used to research Asteroids, when provided with information from satellites.\n\nAsteroids contain extremely rare metals in abundance. Asteroids have been custom made for this pack.{Embed}TypeLink;http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/AsteroidMissions.html;200;15;Asteroid Mining Guide{Embed}",
+          "desc:8": "The Astrobody Data Processor is a multiblock machine used to research Asteroids, when provided with information from satellites.\n\nAsteroids contain extremely rare metals in abundance. Asteroids have been custom made for this pack.{Embed}TypeLink;http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/AsteroidMissions.html;160;15;Asteroid Mining Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39012,7 +39012,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide. \n\nThe mod author made this spotlight on it:{Embed}TypeLink;https://www.youtube.com/watch?v=B9ctB28I3qI&t=0s;240;15;Spotlight by the mod author{Embed}\n\nYou will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
+          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide.{Embed}TypeLink;https://youtu.be/B9ctB28I3qI?si=34cdVCNa0hTzFrGa&t=13;210;15;Spotlight by the mod author{Embed}You will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39083,7 +39083,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://www.youtube.com/watch?v=G5pM93a0MGA&t=2s;240;15;Slighty outdated spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
+          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://youtu.be/IIZur0OrqGY?si=gZU9-hB2iNHUPH0a&t=1;210;15;Spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -42883,7 +42883,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A highly underrated option, the indexer offers unlimited storage and range with no energy (or GP) cost whatsoever. {Embed}TypeLink;https://youtu.be/LPWLSKmxt1U;200;15;Indexer Storage System Guide{Embed}",
+          "desc:8": "A highly underrated option, the indexer offers unlimited storage and range with no energy (or GP) cost whatsoever. {Embed}TypeLink;https://youtu.be/LPWLSKmxt1U;210;15;Indexer Storage System Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -51937,7 +51937,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "There are 28 possible Fusion Fuel combinations, with varying duration, power and heat generation. For the full list, see §1\nhttps://ftb.gamepedia.com/Fusion_Fuels_(NuclearCraft)§0§f\n§3§3§3§2\n§§§0The fuel combination with the highest base power generation is Deuterium-Tritium.\n\nThe fuel combination with the longest base duration is Tritium-Lithium7.\n\nThe fuel combination with the lowest heat generation is also Deuterium-Tritium.\n\n\n",
+          "desc:8": "There are 28 possible Fusion Fuel combinations, with varying duration, power and heat generation.{Embed}TypeLink;https://ftb.fandom.com/wiki/Fusion_Fuels_(NuclearCraft);110;15;Fuel List{Embed}The fuel combination with the highest base power generation is Deuterium-Tritium.\n\nThe fuel combination with the longest base duration is Tritium-Lithium7.\n\nThe fuel combination with the lowest heat generation is also Deuterium-Tritium.\n\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -52021,7 +52021,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "There are 52 possible Fission Fuels, with varying duration, power and heat generation. For the full list, see §1https://ftb.gamepedia.com/Fission_Fuels§0§r\n\nThe fuel with the highest base duration is TBU.\n\nThe fuel with the highest base power output is HECf-249 Oxide.\n\nThe fuel with the lowest base heat is also TBU.",
+          "desc:8": "There are 52 possible Fission Fuels, with varying duration, power and heat generation. {Embed}TypeLink;https://ftb.fandom.com/wiki/Fission_Fuels;110;15;Fuel List{Embed}\nThe fuel with the highest base duration is TBU.\n\nThe fuel with the highest base power output is HECf-249 Oxide.\n\nThe fuel with the lowest base heat is also TBU.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53642,7 +53642,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If stuff isn\u0027t cooking fast enough, consider looking into a Seared Furnace. At max size, it can smelt 35,136 items at once!\n\n{Embed}TypeLink;https://youtu.be/LafhgVtFdIA;150;15;Link a guide{Embed}",
+          "desc:8": "If stuff isn\u0027t cooking fast enough, consider looking into a Seared Furnace. At max size, it can smelt 35,136 items at once!\n\n{Embed}TypeLink;https://youtu.be/LafhgVtFdIA;110;15;Link a guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -55781,7 +55781,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si=_TcYdnI1am0P71QJ;210;15;Applied Energistics 2 Guide{Embed}",
+          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si\u003d_TcYdnI1am0P71QJ;210;15;Applied Energistics 2 Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
