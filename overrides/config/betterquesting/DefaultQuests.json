@@ -2999,7 +2999,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.",
+          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si=_TcYdnI1am0P71QJ;200;15;Applied Energistics 2 Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3062,16 +3062,6 @@
               "id:8": "appliedenergistics2:part"
             }
           }
-        },
-        "2:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/u0ouTWgdcXk?si\u003d_TcYdnI1am0P71QJ",
-          "description:8": "Pansmith\u0027s Guide to Applied Energistics 2",
-          "hideBlockIcon:1": 1,
-          "index:3": 2,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Link a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -6837,7 +6827,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Nuclear Reactor is capable of producing huge amounts of EU.\nSee https://wiki.industrial-craft.net/index.php/Nuclear_Reactor for additional details.\n\nIf you\u0027ve never used the Nuclear Reactor, I highly suggest that you find a guide or tutorial.\n\nThe amount of EU it produces has been increased.",
+          "desc:8": "The Nuclear Reactor is capable of producing huge amounts of EU.\n\n\nIf you\u0027ve never used the Nuclear Reactor, I highly suggest that you find a guide or tutorial.\n\nThe amount of EU it produces has been increased.{Embed}TypeLink;https://wiki.industrial-craft.net/index.php/Nuclear_Reactor;240;15;Nuclear Reactor Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8172,7 +8162,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Early game power.\n\nOf note, is that there is a setup that can be built that will allow these waterwheels to generate 88rf/t, not bad for their cost.",
+          "desc:8": "Early game power.\n\nOf note, is that there is a setup that can be built that will allow these waterwheels to generate 88rf/t, not bad for their cost. {Embed}TypeLink;https://youtu.be/SRSgDLRZI_Y;190;15;Quick Waterwheel Setup Tutorial{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8212,16 +8202,6 @@
               "id:8": "bq_standard:loot_chest"
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/SRSgDLRZI_Y",
-          "description:8": "Quick Immersive Engineering Waterwheel Setup Tutorial",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Link guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -9424,7 +9404,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Atomic Reconstructor is able to \"reconstruct\" some materials into others. Place or throw the blocks/items you want to change in front of it, and fire its\u0027 laser. By default, the laser will fire every few seconds.",
+          "desc:8": "The Atomic Reconstructor is able to \"reconstruct\" some materials into others. Place or throw the blocks/items you want to change in front of it, and fire its\u0027 laser. By default, the laser will fire every few seconds.{Embed}TypeLink;https://youtu.be/dh3VqHdb6cE;210;15;Quick Atomic Reconstructor Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9464,16 +9444,6 @@
               "id:8": "bq_standard:loot_chest"
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/dh3VqHdb6cE",
-          "description:8": "A quick guide to Atomic Reconstructor Automation and Passiving",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Give a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -9503,7 +9473,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Empowerer is a crafting mechanic. You\u0027ll need to place the Display Stands with 2 blocks between them and the Empowerer, in all 4 cardinal directions.\n\nThe Display Stands require power for the Empowerer to function.\n\nEach Display Stand needs a ingredient, and the Empowerer takes one aswell.\n\nThe crafting process automatically begins if 4 correct ingredients and the corresponding Empowerer item is supplied.\n\nAutomating it can be done with Item lasers, refer to the linked video.\n",
+          "desc:8": "The Empowerer is a crafting mechanic. You\u0027ll need to place the Display Stands with 2 blocks between them and the Empowerer, in all 4 cardinal directions.\n\nThe Display Stands require power for the Empowerer to function.\n\nEach Display Stand needs a ingredient, and the Empowerer takes one aswell.\n\nThe crafting process automatically begins if 4 correct ingredients and the corresponding Empowerer item is supplied.\n\nAutomating it can be done with Item lasers, refer to the linked video.\n{Embed}TypeLink;https://youtu.be/DQCWZ_MKOTI;240;15;Empowerment Automation in under 15 seconds{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9543,16 +9513,6 @@
               "id:8": "bq_standard:loot_chest"
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "/tell @p https://youtu.be/DQCWZ_MKOTI",
-          "description:8": "Actually Additions Empowerment Automation in under 15 seconds\n",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Give a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -15502,7 +15462,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A Reactor capable of producing insane amounts of energy. It runs on D-T Fuel, made from Deuterium and Tritium.\n\nSee http://wiki.aidancbrady.com/wiki/Fusion_Reactor for a setup guide.",
+          "desc:8": "A Reactor capable of producing insane amounts of energy. It runs on D-T Fuel, made from Deuterium and Tritium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Fusion_Reactor;240;15;Fusion Reactor Setup Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15607,7 +15567,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Thermal Evaporation Plant is a multiblock capable of turning Water into Brine, and Brine into Lithium.\n\nSee http://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant§0 for a setup guide.",
+          "desc:8": "The Thermal Evaporation Plant is a multiblock capable of turning Water into Brine, and Brine into Lithium.{Embed}TypeLink;https://wiki.aidancbrady.com/wiki/Thermal_Evaporation_Plant;240;15;Thermal Evaporation Plant Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 64,
@@ -17136,7 +17096,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant. See https://teamcofh.com/docs/compression-dynamo/ for the full list of fuels.",
+          "desc:8": "This Dynamo produces power from a variety of liquid fuels, such as Liquifacted Coal and Refined Fuel, and water as coolant.{Embed}TypeLink;https://teamcofh.com/docs/compression-dynamo/;240;15;Full fuel list{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17217,7 +17177,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar. See https://teamcofh.com/docs/reactant-dynamo/ for the full list of fuels.",
+          "desc:8": "This Dynamo produces power from a solid reactant, and a liquid fuel, for example Destabilized Redstone and Sugar.{Embed}TypeLink;https://teamcofh.com/docs/reactant-dynamo/;240;15;Full fuel list{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21714,7 +21674,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Forestry Multiblock Farms can farm all kinds of things, and are both fast and efficient.\n\nSee §1https://ftb.gamepedia.com/Multifarm §0for additional details.",
+          "desc:8": "Forestry Multiblock Farms can farm all kinds of things, and are both fast and efficient.\n\n {Embed}TypeLink;https://ftb.gamepedia.com/Multifarm;160;15;Wiki for additional details.{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33750,7 +33710,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Satellites can be used to collect data from celestial objects.\n \n\nSee http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/Satellites.html for details.",
+          "desc:8": "Satellites can be used to collect data from celestial objects.{Embed}TypeLink;http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/Satellites.html;120;15;Satellite Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34057,7 +34017,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Astrobody Data Processor is a multiblock machine used to research Asteroids, when provided with information from satellites.\n\nAsteroids contain extremely rare metals in abundance. Asteroids have been custom made for this pack.\n\nSee http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/AsteroidMissions.html for more information.",
+          "desc:8": "The Astrobody Data Processor is a multiblock machine used to research Asteroids, when provided with information from satellites.\n\nAsteroids contain extremely rare metals in abundance. Asteroids have been custom made for this pack.{Embed}TypeLink;http://arwiki.dmodoomsirius.me/AdvancedRocketry/1.12.2/guides/AsteroidMissions.html;200;15;Asteroid Mining Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39052,7 +39012,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide. \n\nThe mod author made this spotlight on it:\n§1§9https://www.youtube.com/watch?v\u003dL-0LOtg2Plk\u0026t\u003d12s§0\n\n\n\n... That\u0027s not actually a hyperlink, it\u0027s just coloured text. Sorry.\n\nYou will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
+          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide. \n\nThe mod author made this spotlight on it:{Embed}TypeLink;https://www.youtube.com/watch?v=B9ctB28I3qI&t=0s;240;15;Spotlight by the mod author{Embed}\n\nYou will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39123,7 +39083,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\nHere\u0027s a slightly outdated spotlight made by the mod author:\n\n§9https://www.youtube.com/watch?v\u003dG5pM93a0MGA\u0026t\u003d2s\n§0\n\nThat\u0027s not actually a hyperlink, it\u0027s just coloured text. Sorry.\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
+          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://www.youtube.com/watch?v=G5pM93a0MGA&t=2s;240;15;Slighty outdated spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -42923,7 +42883,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A highly underrated option, the indexer offers unlimited storage and range with no energy (or GP) cost whatsoever.",
+          "desc:8": "A highly underrated option, the indexer offers unlimited storage and range with no energy (or GP) cost whatsoever. {Embed}TypeLink;https://youtu.be/LPWLSKmxt1U;200;15;Indexer Storage System Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -42965,16 +42925,6 @@
               "id:8": "extrautils2:grocket"
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/LPWLSKmxt1U",
-          "description:8": "Extra Utilities 2\u0027s Indexer Storage System",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Link a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -53692,7 +53642,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "If stuff isn\u0027t cooking fast enough, consider looking into a Seared Furnace. At max size, it can smelt 35,136 items at once!\n\n",
+          "desc:8": "If stuff isn\u0027t cooking fast enough, consider looking into a Seared Furnace. At max size, it can smelt 35,136 items at once!\n\n{Embed}TypeLink;https://youtu.be/LafhgVtFdIA;150;15;Link a guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53731,16 +53681,6 @@
               }
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/LafhgVtFdIA",
-          "description:8": "Smelting up to 35,136 items at once with the Tinker\u0027s Seared Furnace",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Link a guide",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -53971,7 +53911,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Some quests will link the player a guide or a video in chat upon completing it, such as this one.",
+          "desc:8": "Some quests will link the player a guide or a video, such as this one. {Embed}TypeLink;https://youtu.be/0EzZCJhrRt8;1000;15;Introducing Enigmatica 2 Expert Unofficial{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54011,16 +53951,6 @@
               }
             }
           }
-        },
-        "1:10": {
-          "asScript:1": 1,
-          "command:8": "tell @p https://youtu.be/0EzZCJhrRt8",
-          "description:8": "Introducing Enigmatica 2 Expert Unofficial",
-          "hideBlockIcon:1": 1,
-          "index:3": 1,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Link a video",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -55851,7 +55781,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.",
+          "desc:8": "Completing this quest opens the Applied Energistics chapter, which also covers AE2 Fluid Crafting Reworked and Packaged Auto.\n\nE2Eu uses AE2 Unofficial Extended Life (aka AE2UEL), and along with it some new features have been brought with it. \n\nIf you have never used AE2, or simply want a refresher on what new features AE2UEL adds, check out the guide that will be whispered to you.\n\nIn this pack, channels are disabled by default, if you wish to renable them, delete channels.zs from your scripts folder and update the ae2 config accordingly.{Embed}TypeLink;https://youtu.be/u0ouTWgdcXk?si=_TcYdnI1am0P71QJ;210;15;Applied Energistics 2 Guide{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
