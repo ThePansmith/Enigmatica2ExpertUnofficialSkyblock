@@ -39012,7 +39012,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide.{Embed}TypeLink;https://youtu.be/B9ctB28I3qI?si=34cdVCNa0hTzFrGa&t=13;210;15;Spotlight by the mod author{Embed}You will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
+          "desc:8": "The Fusion Reactor is a large multiblock generator, capable of generating massive amounts of power.\n\nIt\u0027s a pretty complicated structure, so I highly advice that you watch a spotlight on it, or read through a guide.{Embed}TypeLink;https://youtu.be/B9ctB28I3qI?si\u003d34cdVCNa0hTzFrGa&t\u003d13;210;15;Spotlight by the mod author{Embed}You will need the Neutron fluid it produces as a byproduct for the Creative Tank.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39083,7 +39083,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://youtu.be/IIZur0OrqGY?si=gZU9-hB2iNHUPH0a&t=1;210;15;Spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
+          "desc:8": "The Fission Reactor is a midgame multiblock generator capable of producing very large amounts of power.\n\nIt\u0027s a good idea to watch a guide or read a tutorial, to get an idea of how you operate the Fission Reactor.\n\n{Embed}TypeLink;https://youtu.be/IIZur0OrqGY?si\u003dgZU9-hB2iNHUPH0a&t\u003d1;210;15;Spotlight by the mod author{Embed}\n\nThe Fission Reactor multiblock parts all have pretty descriptive tooltips, so I suggest you read through those to get an idea of what\u0027s possible.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53911,7 +53911,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Some quests will link the player a guide or a video, such as this one. {Embed}TypeLink;https://youtu.be/0EzZCJhrRt8;1000;15;Introducing Enigmatica 2 Expert Unofficial{Embed}",
+          "desc:8": "Some quests will link the player a guide or a video, such as this one. {Embed}TypeLink;https://youtu.be/0EzZCJhrRt8;500;15;Introducing Enigmatica 2 Expert Unofficial{Embed}",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
