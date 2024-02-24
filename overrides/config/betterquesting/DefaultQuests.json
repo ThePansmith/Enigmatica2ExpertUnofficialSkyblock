@@ -27260,7 +27260,11 @@
             },
             "OreDict:8": "",
             "id:8": "botania:lexicon",
-            "tag:10": {}
+            "tag:10": {
+              "knowledge.alfheim:1": 1,
+              "knowledge.minecraft:1": 1,
+              "knowledge.relic:1": 1
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -58040,7 +58044,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "minecraft:sapling"
           },
           "name:8": "Getting Started",
           "visibility:8": "NORMAL"
@@ -58334,7 +58338,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "advancedrocketry:satellitebuilder"
           },
           "name:8": "Advanced Rocketry",
           "visibility:8": "NORMAL"
@@ -58628,7 +58632,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "forestry:carpenter"
           },
           "name:8": "Forestry",
           "visibility:8": "NORMAL"
@@ -58801,9 +58805,9 @@
           "desc:8": "Quests for Immersive Engineering, a Tier 1 Tech mod.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "immersiveengineering:wooden_device0"
           },
           "name:8": "Immersive Engineering",
           "visibility:8": "NORMAL"
@@ -58976,9 +58980,9 @@
           "desc:8": "Quests for Ender IO, a Tier 4 Tech mod.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "enderio:item_power_conduit"
           },
           "name:8": "Ender IO",
           "visibility:8": "NORMAL"
@@ -59202,7 +59206,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "astralsorcery:blockaltar"
           },
           "name:8": "Astral Sorcery",
           "visibility:8": "NORMAL"
@@ -59384,7 +59388,12 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "botania:lexicon",
+            "tag:10": {
+              "knowledge.alfheim:1": 1,
+              "knowledge.minecraft:1": 1,
+              "knowledge.relic:1": 1
+            }
           },
           "name:8": "Botania",
           "visibility:8": "NORMAL"
@@ -59788,9 +59797,12 @@
           "desc:8": "Quests for Mekanism, a Tier 2 Tech mod.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "mekanism:machineblock",
+            "tag:10": {
+              "mekData:10": {}
+            }
           },
           "name:8": "Mekanism",
           "visibility:8": "NORMAL"
@@ -60091,7 +60103,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "bloodmagic:altar"
           },
           "name:8": "Blood Magic",
           "visibility:8": "NORMAL"
@@ -60357,7 +60369,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "thaumcraft:infusion_matrix"
           },
           "name:8": "Thaumcraft",
           "visibility:8": "NORMAL"
@@ -60705,9 +60717,9 @@
           "desc:8": "Quests for IndustrialCraft2, a Tier 1 Tech mod.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 22,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "ic2:te"
           },
           "name:8": "IndustrialCraft",
           "visibility:8": "NORMAL"
@@ -60987,7 +60999,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "actuallyadditions:block_breaker"
           },
           "name:8": "Actually Additions",
           "visibility:8": "NORMAL"
@@ -61225,7 +61237,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "industrialforegoing:tree_fluid_extractor"
           },
           "name:8": "Industrial Foregoing",
           "visibility:8": "NORMAL"
@@ -61419,9 +61431,9 @@
           "desc:8": "Quests for Thermal Expansion, a Tier 3 Tech mod.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 148,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "thermalexpansion:frame"
           },
           "name:8": "Thermal Expansion",
           "visibility:8": "NORMAL"
@@ -61764,7 +61776,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "extrautils2:angelblock"
           },
           "name:8": "Extra Utilities",
           "visibility:8": "NORMAL"
@@ -62149,7 +62161,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "rftools:powercell_advanced"
           },
           "name:8": "RFTools",
           "visibility:8": "NORMAL"
@@ -62336,9 +62348,9 @@
           "desc:8": "Quests for Applied Energistics 2, the storage and automation mod.\n\nAlso has quests for AE2FCR, pauto, pex, and pastrial.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "chisel:futura"
           },
           "name:8": "Applied Energistics",
           "visibility:8": "NORMAL"
@@ -62653,7 +62665,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "nuclearcraft:fusion_core"
           },
           "name:8": "NuclearCraft",
           "visibility:8": "NORMAL"
@@ -62877,7 +62889,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "environmentaltech:void_ore_miner_cont_1"
           },
           "name:8": "Environmental Tech",
           "visibility:8": "NORMAL"
@@ -63129,7 +63141,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "draconicevolution:fusion_crafting_core"
           },
           "name:8": "Draconic Evolution",
           "visibility:8": "NORMAL"
@@ -63449,9 +63461,9 @@
           "desc:8": "Completing this chapter means winning the modpack!",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "draconicevolution:draconium_capacitor"
           },
           "name:8": "Bragging Rights",
           "visibility:8": "NORMAL"
@@ -63666,9 +63678,9 @@
           "desc:8": "This chapter contains the quests that gate the other chapters.",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 12,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "nuclearcraft:part"
           },
           "name:8": "Gates",
           "visibility:8": "NORMAL"
@@ -63859,12 +63871,12 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description",
+          "desc:8": "Multiblock everything!",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:book"
+            "id:8": "mbd:acarp"
           },
           "name:8": "Multiblocked",
           "visibility:8": "NORMAL"
