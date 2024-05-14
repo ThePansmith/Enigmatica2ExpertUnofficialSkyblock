@@ -101,7 +101,7 @@
 			<itemStack>minecraft:planks 10 5</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="5" power="40000">
+	<!--<Recipe timeRequired="5" power="40000">
 		<input>
 			<itemStack>twilightforest:magic_log 1 0</itemStack>
 		</input>
@@ -165,6 +165,7 @@
 			<itemStack>twilightforest:dark_planks 10 0</itemStack>
 		</output>
 	</Recipe>
+	!-->
 	<Recipe timeRequired="5" power="40000">
 		<input>
 			<itemStack>harvestcraft:pampaperbark 1 0</itemStack>
@@ -189,6 +190,7 @@
 			<itemStack>minecraft:planks 10 3</itemStack>
 		</output>
 	</Recipe>
+<!---
 	<Recipe timeRequired="5" power="40000">
 		<input>
 			<itemStack>biomesoplenty:log_1 1 4</itemStack>
@@ -317,6 +319,7 @@
 			<itemStack>biomesoplenty:planks_0 10 3</itemStack>
 		</output>
 	</Recipe>
+	!-->
 	<Recipe timeRequired="5" power="40000">
 		<input>
 			<itemStack>forestry:logs.2 1 0</itemStack>
